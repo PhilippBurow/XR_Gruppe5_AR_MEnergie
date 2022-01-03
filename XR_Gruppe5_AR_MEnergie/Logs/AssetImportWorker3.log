@@ -1,0 +1,487 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.24f1 (79c78de19888) revision 7980941'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit Core' Language: 'de' Physical Memory: 12147 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie/XR_Gruppe5_AR_MEnergie
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+60903
+Successfully changed project path to: C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie/XR_Gruppe5_AR_MEnergie
+C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie/XR_Gruppe5_AR_MEnergie
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 218.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.24f1 (79c78de19888)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie/XR_Gruppe5_AR_MEnergie/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   
+    VRAM:     6073 MB
+    Driver:   24.20.100.6286
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006517 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 163.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.873 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1874ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1431ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (509ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (518ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (163ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013956 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.961 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3963ms)
+		BeginReloadAssembly (601ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (3208ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (642ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (2091ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (421ms)
+				ProcessInitializeOnLoadMethodAttributes (1483ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.29 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.1 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1932.
+Total: 8.134800 ms (FindLiveObjects: 0.361600 ms CreateObjectMapping: 0.262900 ms MarkObjects: 7.341000 ms  DeleteObjects: 0.166500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(f1a6611b7e4621244b5495b5218fa6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(f1a6611b7e4621244b5495b5218fa6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b0d446aa066d36456d9942d613350a') in 0.027216 seconds 
+  Import took 0.035906 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 8.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 22.403 seconds
+Domain Reload Profiling:
+	ReloadAssembly (22404ms)
+		BeginReloadAssembly (374ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (21786ms)
+			LoadAssemblies (322ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1454ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (712ms)
+			SetupLoadedEditorAssemblies (3513ms)
+				LogAssemblyErrors (2ms)
+				InitializePlatformSupportModulesInManaged (88ms)
+				SetLoadedEditorAssemblies (40ms)
+				RefreshPlugins (9ms)
+				BeforeProcessingInitializeOnLoad (1520ms)
+				ProcessInitializeOnLoadAttributes (1727ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (34ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(9a081e32949034997bdc31904cc873d6) path("Packages/com.unity.xr.arcore/Runtime/ImageConversionJobs.cs") state(2)
+Script is not up to date after domain reload: guid(4ab6ac5ccd6b33b41b38083f0d8d0188) path("Packages/com.unity.xr.arcore/Runtime/ArPrestoApi.cs") state(2)
+Script is not up to date after domain reload: guid(da73193382074addbb66804256ca451f) path("Packages/com.unity.xr.arcore/Runtime/Depth/ARCoreXRDepthSubsystem.cs") state(2)
+Script is not up to date after domain reload: guid(34156ec65464416438ceeddcbc561c63) path("Packages/com.unity.xr.arcore/Runtime/ARCoreFaceRegionData.cs") state(2)
+Script is not up to date after domain reload: guid(e6b46f89dba04c0985d256119d55ac5a) path("Packages/com.unity.xr.arcore/Runtime/ArCameraConfig.cs") state(2)
+Script is not up to date after domain reload: guid(50625ac8978954047bfa4fc493603c05) path("Packages/com.unity.xr.arcore/Runtime/ARCoreEnvironmentProbeSubsystem.cs") state(2)
+Script is not up to date after domain reload: guid(6e586c56f65a44db90ab4baffb34d85a) path("Packages/com.unity.xr.arcore/Runtime/Android/UnityARCore.aar") state(2)
+Script is not up to date after domain reload: guid(2e5fcdf3dac64b4495f2ccb2611311e3) path("Packages/com.unity.xr.arcore/Runtime/ArCameraConfigFacingDirection.cs") state(2)
+Script is not up to date after domain reload: guid(b850c910468a84bdfb8934ee1d277a50) path("Packages/com.unity.xr.arcore/Editor/AssemblyInfo.cs") state(2)
+Script is not up to date after domain reload: guid(d5e67ce2a942eed42b69d476ae939e66) path("Packages/com.unity.xr.arcore/Runtime/ARCorePermissionManager.cs") state(2)
+Script is not up to date after domain reload: guid(6c9f54fc748647042a00c82e49e34d76) path("Packages/com.unity.xr.arcore/Runtime/ARCorePromise.cs") state(2)
+Script is not up to date after domain reload: guid(b9fdc04306d5ef44fa397a754f1afe49) path("Packages/com.unity.xr.arcore/Runtime/ARCoreFaceRegion.cs") state(2)
+Script is not up to date after domain reload: guid(a6a78992e6344e259d637b405e8228bc) path("Packages/com.unity.xr.arcore/Runtime/ArCameraConfigDepthSensorUsage.cs") state(2)
+Script is not up to date after domain reload: guid(aea6eb80e74d44aa3befb13c5dcc1310) path("Packages/com.unity.xr.arcore/Tests/Editor/ManagementTests.cs") state(2)
+Script is not up to date after domain reload: guid(fc49bd583cf8944cfbf7f13044e3eefe) path("Packages/com.unity.xr.arcore/Runtime/ARCoreApi.cs") state(2)
+Script is not up to date after domain reload: guid(bc324540e18b4490927da4fee77d486b) path("Packages/com.unity.xr.arcore/Tests/Editor/ArCoreImgTests.cs") state(2)
+Script is not up to date after domain reload: guid(5ed0840a47024af380a92076f23e2496) path("Packages/com.unity.xr.arcore/Runtime/ArConfig.cs") state(2)
+Script is not up to date after domain reload: guid(1b8c9bb03c161cf4fb0cda2386fdf869) path("Packages/com.unity.xr.arcore/Runtime/ARCorePlaneProvider.deprecated.cs") state(2)
+Script is not up to date after domain reload: guid(80809d1c22770494a9dd52c971a34f53) path("Packages/com.unity.xr.arcore/Runtime/Android/arcore_client.aar") state(2)
+Script is not up to date after domain reload: guid(b242a8eb6a1064f3abc62a7aa0359d5c) path("Packages/com.unity.xr.arcore/Runtime/ARCoreCpuImageApi.cs") state(2)
+Script is not up to date after domain reload: guid(f1e0860e40da2462fae58e777f1c5d3a) path("Packages/com.unity.xr.arcore/Runtime/ARCoreCameraSubsystem.cs") state(2)
+Script is not up to date after domain reload: guid(9dae4501572e1418791be3e3bf1f7faa) path("Packages/com.unity.xr.arcore/Editor/ARCoreSettings.cs") state(2)
+Script is not up to date after domain reload: guid(456f94e525e6247e08d81c02fdf8996b) path("Packages/com.unity.xr.arcore/Editor/Gradle.cs") state(2)
+Script is not up to date after domain reload: guid(c28bd32f49bf403283b26f1f01535b5a) path("Packages/com.unity.xr.arcore/Runtime/ArString.cs") state(2)
+Script is not up to date after domain reload: guid(3fba636a1f2a443a9e921e561abf9f20) path("Packages/com.unity.xr.arcore/Runtime/HashCode.cs") state(2)
+Script is not up to date after domain reload: guid(abdf359910af15b4dae909528beadb2c) path("Packages/com.unity.xr.arcore/Runtime/ARCoreRaycastSubsystem.cs") state(2)
+Script is not up to date after domain reload: guid(ee6dda3c6c8d40ff8aff71e0df052deb) path("Packages/com.unity.xr.arcore/Runtime/ArSession.cs") state(2)
+Script is not up to date after domain reload: guid(aa7ad771a66e94077bd8c4c1db989cb6) path("Packages/com.unity.xr.arcore/Runtime/ManagedReferenceImage.cs") state(2)
+Script is not up to date after domain reload: guid(84a049bdb60f48ad8f7e70b04c7409a4) path("Packages/com.unity.xr.arcore/Runtime/ArCameraConfigTargetFps.cs") state(2)
+Script is not up to date after domain reload: guid(89f1013f38f0041239d2b0677ca5e927) path("Packages/com.unity.xr.arcore/Runtime/RcoApi.cs") state(2)
+Script is not up to date after domain reload: guid(4539d935f0af3434cb8c43f943020bd9) path("Packages/com.unity.xr.arcore/Runtime/ARCoreLoaderConstants.cs") state(2)
+Script is not up to date after domain reload: guid(a45cbbcbca4ea4166b51ddf3bfc8cca9) path("Packages/com.unity.xr.arcore/Editor/Java.cs") state(2)
+Script is not up to date after domain reload: guid(5fd95379fc39a9e4c973fd3ef22218a3) path("Packages/com.unity.xr.arcore/Runtime/ARCoreImageTrackingProvider.deprecated.cs") state(2)
+Script is not up to date after domain reload: guid(00cb13c61b2744fd786f9f969ce96149) path("Packages/com.unity.xr.arcore/Runtime/ARCoreLoaderSettings.cs") state(2)
+Script is not up to date after domain reload: guid(f3bd56aaa7fe544a3b8806082394a8aa) path("Packages/com.unity.xr.arcore/Runtime/ARCoreBeforeSetConfigurationEventArgs.cs") state(2)
+Script is not up to date after domain reload: guid(5233303544934f188a00cc7af368724c) path("Packages/com.unity.xr.arcore/Runtime/ARCoreAnchorSubsystem.cs") state(2)
+Script is not up to date after domain reload: guid(7f31090d5f7804531b2e17e2b1a1e043) path("Packages/com.unity.xr.arcore/Tests/Runtime/ARCoreTests.cs") state(2)
+Script is not up to date after domain reload: guid(06042c85f885b4d1886f3ca5a1074eca) path("Packages/com.unity.xr.arcore/Runtime/ARCoreLoader.cs") state(2)
+Script is not up to date after domain reload: guid(dc947a265404420893f66ce3c43a83f2) path("Packages/com.unity.xr.arcore/Runtime/ArCameraConfigFilter.cs") state(2)
+Script is not up to date after domain reload: guid(4e63b67a7d96841408b54dae7e600896) path("Packages/com.unity.xr.arcore/Runtime/Assembly.cs") state(2)
+Script is not up to date after domain reload: guid(65373788ad41c488eb77436c79b5aca2) path("Packages/com.unity.xr.arcore/Editor/Cli.cs") state(2)
+Script is not up to date after domain reload: guid(3b57a5e462d2ae74fbbac89824b615b7) path("Packages/com.unity.xr.arcore/Editor/ARCoreBuildProcessor.cs") state(2)
+Script is not up to date after domain reload: guid(676ba27172de4cd5b1b48e228959890b) path("Packages/com.unity.xr.arcore/Runtime/ARCoreBeforeGetCameraConfigurationEventArgs.cs") state(2)
+Script is not up to date after domain reload: guid(43b393e6060cc4381a9049339f4cfd63) path("Packages/com.unity.xr.arcore/Runtime/ARCoreImageDatabase.cs") state(2)
+Script is not up to date after domain reload: guid(77e453424bb79034cab81f0a1338eb51) path("Packages/com.unity.xr.arcore/Runtime/ARCoreImageTrackingSubsystem.cs") state(2)
+Script is not up to date after domain reload: guid(dea4ed432b471704386e106cbd444b98) path("Packages/com.unity.xr.arcore/Runtime/ARCoreSessionSubsystem.cs") state(2)
+Script is not up to date after domain reload: guid(c3e8e4d2b7b0a46a991ca2b20cbdec7b) path("Packages/com.unity.xr.arcore/Runtime/NativeView.cs") state(2)
+Script is not up to date after domain reload: guid(3307769a43adc485396f5e629dc77de6) path("Packages/com.unity.xr.arcore/Runtime/ARCoreOcclusionSubsystem.cs") state(2)
+Script is not up to date after domain reload: guid(2aeaf832ddf874f70abda1fc6b18c2a6) path("Packages/com.unity.xr.arcore/Editor/ARCoreSettingsProvider.cs") state(2)
+Script is not up to date after domain reload: guid(cbb9a1a1045029849b910022a3757ecd) path("Packages/com.unity.xr.arcore/Runtime/ARCorePlaneSubsystem.cs") state(2)
+Script is not up to date after domain reload: guid(2bd1cf2fd73544439dc6fd26e57363dd) path("Packages/com.unity.xr.arcore/Editor/ArCoreImg.cs") state(2)
+Script is not up to date after domain reload: guid(5750df3db70fa47718db21a9b907888e) path("Packages/com.unity.xr.arcore/Editor/ARCorePackageMetadata.cs") state(2)
+Script is not up to date after domain reload: guid(ddfa88b69505644009cdad85c3b6983e) path("Packages/com.unity.xr.arcore/Tests/Editor/GradleValidationTests.cs") state(2)
+Script is not up to date after domain reload: guid(699046202626452fb6583d602a0559e5) path("Packages/com.unity.xr.arcore/Runtime/Android/ARPresto.aar") state(2)
+Script is not up to date after domain reload: guid(b685e88ac8ea4454790bcf156035ae5b) path("Packages/com.unity.xr.arcore/Tests/Editor/JavaTests.cs") state(2)
+Script is not up to date after domain reload: guid(bd091fc8013c942f586c1672b8ee2b27) path("Packages/com.unity.xr.arcore/Runtime/Android/unityandroidpermissions.aar") state(2)
+Script is not up to date after domain reload: guid(7d400d2e2fe413e4da76ca47c9ffe3df) path("Packages/com.unity.xr.arcore/Runtime/ARCoreFaceSubsystem.cs") state(2)
+Script is not up to date after domain reload: guid(0bd9df1adc4838d49bd71bc73b71dd75) path("Packages/com.unity.xr.arcore/Runtime/Input/InputLayoutLoader.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1780 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.6 MB.
+System memory in use after: 77.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2221.
+Total: 10.457800 ms (FindLiveObjects: 2.481500 ms CreateObjectMapping: 0.222800 ms MarkObjects: 7.699300 ms  DeleteObjects: 0.051300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017551 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.300 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5301ms)
+		BeginReloadAssembly (454ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (33ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (4360ms)
+			LoadAssemblies (452ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1943ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (248ms)
+			SetupLoadedEditorAssemblies (1208ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (192ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (350ms)
+				ProcessInitializeOnLoadAttributes (610ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1839 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.3 MB.
+System memory in use after: 79.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2282.
+Total: 6.968100 ms (FindLiveObjects: 0.374300 ms CreateObjectMapping: 0.156000 ms MarkObjects: 6.307900 ms  DeleteObjects: 0.127900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019140 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 106.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.194 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5196ms)
+		BeginReloadAssembly (466ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (53ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (111ms)
+		EndReloadAssembly (4379ms)
+			LoadAssemblies (431ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1781ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (203ms)
+			SetupLoadedEditorAssemblies (1111ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (231ms)
+				ProcessInitializeOnLoadAttributes (654ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1911 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.4 MB.
+System memory in use after: 81.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2360.
+Total: 5.557900 ms (FindLiveObjects: 0.269400 ms CreateObjectMapping: 0.119500 ms MarkObjects: 5.021900 ms  DeleteObjects: 0.144200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.0 MB.
+System memory in use after: 43.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2360.
+Total: 10.401200 ms (FindLiveObjects: 0.360100 ms CreateObjectMapping: 0.165700 ms MarkObjects: 9.598300 ms  DeleteObjects: 0.275200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 716.360605 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.068334 seconds 
+  Import took 0.087429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.287155 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(3e45d9bfc6a9811448fa27b13487ebbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(3e45d9bfc6a9811448fa27b13487ebbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844a112e0e91c215a249fd19b4be2393') in 0.039876 seconds 
+  Import took 0.055176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.524886 seconds.
+  path: Assets/Material
+  artifactKey: Guid(0d76bfbb553128744836d74c0761a636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material using Guid(0d76bfbb553128744836d74c0761a636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f58fe757849cdcc082217e7aea4a91') in 0.101988 seconds 
+  Import took 0.117633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.313428 seconds.
+  path: Assets/Texture
+  artifactKey: Guid(943fcae289f07b141b2033b04d58d6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture using Guid(943fcae289f07b141b2033b04d58d6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd612156a8c8ae24b5956305c8cec3829') in 0.112367 seconds 
+  Import took 0.127054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.755086 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(819d8f54c77c95942addc3b8e33077f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(819d8f54c77c95942addc3b8e33077f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fc082ff667a5b06497d1ab4dbbf1a0') in 0.099365 seconds 
+  Import took 0.115397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.053954 seconds.
+  path: Assets/Material/TH_Koeln_Logo.png
+  artifactKey: Guid(4fdd93aa38ec5ca4e84c7e4ad40a596b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/TH_Koeln_Logo.png using Guid(4fdd93aa38ec5ca4e84c7e4ad40a596b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20630c9335900771f14505780a423e5a') in 0.167801 seconds 
+  Import took 0.180117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.076732 seconds.
+  path: Assets/Material/Hauptmenue.png
+  artifactKey: Guid(67d154536eb0533489263bc9f423ac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Hauptmenue.png using Guid(67d154536eb0533489263bc9f423ac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fe6f811dbf227ba3fbd0cb08101db1') in 0.048507 seconds 
+  Import took 0.057893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.379685 seconds.
+  path: Assets/Material/2D
+  artifactKey: Guid(e4055ff05eea2744c940a39bf80921b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/2D using Guid(e4055ff05eea2744c940a39bf80921b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16a78245c556455ab39bc71a15837dc') in 0.032989 seconds 
+  Import took 0.044354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.659770 seconds.
+  path: Assets/Material/3D
+  artifactKey: Guid(97ef9476b2b4f6a45893091b1b7d2753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/3D using Guid(97ef9476b2b4f6a45893091b1b7d2753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e049a7cfae281baf2af0ca20adc26af') in 0.030924 seconds 
+  Import took 0.038775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.084679 seconds.
+  path: Assets/Material/Audio
+  artifactKey: Guid(6ee1f278837560044b946a8bca56161c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Audio using Guid(6ee1f278837560044b946a8bca56161c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b73aed5e129e6b99c0a798f50a18d2') in 0.034088 seconds 
+  Import took 0.043632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.255348 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab
+  artifactKey: Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab using Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e5402df3ba6997afeb4e074ac5eb80') in 0.048023 seconds 
+  Import took 0.055781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.561018 seconds.
+  path: Assets/Material/2D/Klimakatastrophen.png
+  artifactKey: Guid(f570a6caa5bb77d418f53d6d14b86083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/2D/Klimakatastrophen.png using Guid(f570a6caa5bb77d418f53d6d14b86083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade7550b9ba9f71a07869829ab0c12d7') in 0.043443 seconds 
+  Import took 0.054033 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
