@@ -944,4 +944,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/StartSceneEE.unity
   - Assets/Scenes/ARScene.unity
-  playerPath: C:/Users/danie/Desktop/EEtest.apk
+  playerPath: C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie_1.apk
