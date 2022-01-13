@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ArTapToPlaceObject
     - ChangeScene
+    - ExitGameDeviceButton
     - PlaneHiding
     - ScaleSlider
     - SpawnManager
@@ -25,6 +26,8 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARPoseDriver
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
+    Unity.XR.ARKit.dll:
+    - UnityEngine.XR.ARKit.ARKitLoader
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -43,6 +46,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
   sceneClasses:
     Assets/Scenes/ARScene.unity:
     - Class: 1
@@ -80,55 +84,59 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1502}
+      Script: {instanceID: 1506}
     - Class: 114
-      Script: {instanceID: 1528}
+      Script: {instanceID: 1532}
     - Class: 114
-      Script: {instanceID: 1628}
+      Script: {instanceID: 1632}
     - Class: 114
-      Script: {instanceID: 1714}
+      Script: {instanceID: 1648}
     - Class: 114
-      Script: {instanceID: 1848}
+      Script: {instanceID: 1718}
     - Class: 114
-      Script: {instanceID: 2176}
+      Script: {instanceID: 1852}
     - Class: 114
-      Script: {instanceID: 2534}
+      Script: {instanceID: 2180}
     - Class: 114
-      Script: {instanceID: 2566}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 2658}
+      Script: {instanceID: 2570}
     - Class: 114
-      Script: {instanceID: 2744}
+      Script: {instanceID: 2662}
     - Class: 114
-      Script: {instanceID: 2886}
+      Script: {instanceID: 2748}
     - Class: 114
-      Script: {instanceID: 2960}
+      Script: {instanceID: 2890}
     - Class: 114
-      Script: {instanceID: 3108}
+      Script: {instanceID: 2964}
     - Class: 114
-      Script: {instanceID: 3224}
+      Script: {instanceID: 3112}
     - Class: 114
-      Script: {instanceID: 3226}
+      Script: {instanceID: 3228}
     - Class: 114
-      Script: {instanceID: 3420}
+      Script: {instanceID: 3230}
     - Class: 114
       Script: {instanceID: 3424}
     - Class: 114
-      Script: {instanceID: 3884}
+      Script: {instanceID: 3428}
     - Class: 114
-      Script: {instanceID: 3946}
+      Script: {instanceID: 3888}
     - Class: 114
-      Script: {instanceID: 4044}
+      Script: {instanceID: 3950}
     - Class: 114
-      Script: {instanceID: 4254}
+      Script: {instanceID: 4048}
     - Class: 114
-      Script: {instanceID: 4534}
+      Script: {instanceID: 4258}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 4538}
     - Class: 114
-      Script: {instanceID: 5074}
+      Script: {instanceID: 4676}
     - Class: 114
-      Script: {instanceID: 19308}
+      Script: {instanceID: 4800}
+    - Class: 114
+      Script: {instanceID: 5080}
+    - Class: 114
+      Script: {instanceID: 17294}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -144,6 +152,55 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/DisasterScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1532}
+    - Class: 114
+      Script: {instanceID: 2538}
+    - Class: 114
+      Script: {instanceID: 2662}
+    - Class: 114
+      Script: {instanceID: 2890}
+    - Class: 114
+      Script: {instanceID: 2964}
+    - Class: 114
+      Script: {instanceID: 3112}
+    - Class: 114
+      Script: {instanceID: 3230}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -175,21 +232,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1528}
+      Script: {instanceID: 1532}
     - Class: 114
-      Script: {instanceID: 2176}
+      Script: {instanceID: 1648}
     - Class: 114
-      Script: {instanceID: 2534}
+      Script: {instanceID: 2180}
     - Class: 114
-      Script: {instanceID: 2658}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 2886}
+      Script: {instanceID: 2662}
     - Class: 114
-      Script: {instanceID: 2960}
+      Script: {instanceID: 2890}
     - Class: 114
-      Script: {instanceID: 3108}
+      Script: {instanceID: 2964}
     - Class: 114
-      Script: {instanceID: 3226}
+      Script: {instanceID: 3112}
+    - Class: 114
+      Script: {instanceID: 3230}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -228,29 +287,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1528}
+      Script: {instanceID: 1532}
     - Class: 114
-      Script: {instanceID: 2176}
+      Script: {instanceID: 1648}
     - Class: 114
-      Script: {instanceID: 2534}
+      Script: {instanceID: 2180}
     - Class: 114
-      Script: {instanceID: 2566}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 2658}
+      Script: {instanceID: 2570}
     - Class: 114
-      Script: {instanceID: 2886}
+      Script: {instanceID: 2662}
     - Class: 114
-      Script: {instanceID: 2960}
+      Script: {instanceID: 2890}
     - Class: 114
-      Script: {instanceID: 3108}
+      Script: {instanceID: 2964}
     - Class: 114
-      Script: {instanceID: 3226}
+      Script: {instanceID: 3112}
     - Class: 114
-      Script: {instanceID: 3420}
+      Script: {instanceID: 3230}
     - Class: 114
       Script: {instanceID: 3424}
     - Class: 114
-      Script: {instanceID: 4254}
+      Script: {instanceID: 3428}
+    - Class: 114
+      Script: {instanceID: 4258}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -522,7 +583,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 0914904eacb0ee03480a28215fb8ee8b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChangeScene
@@ -888,6 +949,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 2ac60b8c74c9938127f2cb09cd3acd9f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ArTapToPlaceObject
+  - hash:
+      serializedVersion: 2
       Hash: 1bc03a501323d00d0037a6b76d25a3ba
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -978,13 +1045,14 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 2ac60b8c74c9938127f2cb09cd3acd9f
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: ArTapToPlaceObject
+    className: ExitGameDeviceButton
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/StartSceneEE.unity
   - Assets/Scenes/ARScene.unity
-  playerPath: C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie_3.apk
+  - Assets/Scenes/DisasterScene.unity
+  playerPath: C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie_5.apk
