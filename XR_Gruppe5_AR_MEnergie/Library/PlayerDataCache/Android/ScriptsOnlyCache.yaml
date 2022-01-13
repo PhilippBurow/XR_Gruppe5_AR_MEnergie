@@ -3,6 +3,8 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ArTapToPlaceObject
     - ChangeScene
+    - DeviceBackButton
+    - DeviceBackButton2
     - ExitGameDeviceButton
     - PlaneHiding
     - ScaleSlider
@@ -84,59 +86,59 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1506}
+      Script: {instanceID: 1502}
     - Class: 114
-      Script: {instanceID: 1532}
+      Script: {instanceID: 1528}
     - Class: 114
-      Script: {instanceID: 1632}
+      Script: {instanceID: 1628}
     - Class: 114
-      Script: {instanceID: 1648}
+      Script: {instanceID: 1644}
     - Class: 114
-      Script: {instanceID: 1718}
+      Script: {instanceID: 1714}
     - Class: 114
-      Script: {instanceID: 1852}
+      Script: {instanceID: 1848}
     - Class: 114
-      Script: {instanceID: 2180}
+      Script: {instanceID: 2176}
     - Class: 114
-      Script: {instanceID: 2538}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2570}
+      Script: {instanceID: 2566}
     - Class: 114
-      Script: {instanceID: 2662}
+      Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 2748}
+      Script: {instanceID: 2744}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 2886}
     - Class: 114
-      Script: {instanceID: 2964}
+      Script: {instanceID: 2960}
     - Class: 114
-      Script: {instanceID: 3112}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3228}
+      Script: {instanceID: 3224}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3226}
     - Class: 114
-      Script: {instanceID: 3424}
+      Script: {instanceID: 3422}
     - Class: 114
-      Script: {instanceID: 3428}
+      Script: {instanceID: 3426}
     - Class: 114
-      Script: {instanceID: 3888}
+      Script: {instanceID: 3886}
     - Class: 114
-      Script: {instanceID: 3950}
+      Script: {instanceID: 3948}
     - Class: 114
-      Script: {instanceID: 4048}
+      Script: {instanceID: 4046}
     - Class: 114
-      Script: {instanceID: 4258}
+      Script: {instanceID: 4256}
     - Class: 114
-      Script: {instanceID: 4538}
+      Script: {instanceID: 4536}
     - Class: 114
-      Script: {instanceID: 4676}
+      Script: {instanceID: 4674}
     - Class: 114
-      Script: {instanceID: 4800}
+      Script: {instanceID: 4798}
     - Class: 114
-      Script: {instanceID: 5080}
+      Script: {instanceID: 5078}
     - Class: 114
-      Script: {instanceID: 17294}
+      Script: {instanceID: 18316}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -183,19 +185,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1532}
+      Script: {instanceID: 1528}
     - Class: 114
-      Script: {instanceID: 2538}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2662}
+      Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 2886}
     - Class: 114
-      Script: {instanceID: 2964}
+      Script: {instanceID: 2960}
     - Class: 114
-      Script: {instanceID: 3112}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3226}
+    - Class: 114
+      Script: {instanceID: 21562}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -232,23 +236,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1532}
+      Script: {instanceID: 1528}
     - Class: 114
-      Script: {instanceID: 1648}
+      Script: {instanceID: 1644}
     - Class: 114
-      Script: {instanceID: 2180}
+      Script: {instanceID: 2176}
     - Class: 114
-      Script: {instanceID: 2538}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2662}
+      Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 2886}
     - Class: 114
-      Script: {instanceID: 2964}
+      Script: {instanceID: 2960}
     - Class: 114
-      Script: {instanceID: 3112}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3226}
+    - Class: 114
+      Script: {instanceID: 3252}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -287,31 +293,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1532}
+      Script: {instanceID: 1528}
     - Class: 114
-      Script: {instanceID: 1648}
+      Script: {instanceID: 1644}
     - Class: 114
-      Script: {instanceID: 2180}
+      Script: {instanceID: 2176}
     - Class: 114
-      Script: {instanceID: 2538}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2570}
+      Script: {instanceID: 2566}
     - Class: 114
-      Script: {instanceID: 2662}
+      Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 2886}
     - Class: 114
-      Script: {instanceID: 2964}
+      Script: {instanceID: 2960}
     - Class: 114
-      Script: {instanceID: 3112}
+      Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3226}
     - Class: 114
-      Script: {instanceID: 3424}
+      Script: {instanceID: 3422}
     - Class: 114
-      Script: {instanceID: 3428}
+      Script: {instanceID: 3426}
     - Class: 114
-      Script: {instanceID: 4258}
+      Script: {instanceID: 4256}
+    - Class: 114
+      Script: {instanceID: 18316}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -653,6 +661,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExitGameDeviceButton
   - hash:
       serializedVersion: 2
       Hash: 290afc8da8e459e0b8dc7444bfaf5e35
@@ -1048,7 +1062,13 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: ExitGameDeviceButton
+    className: DeviceBackButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DeviceBackButton2
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
