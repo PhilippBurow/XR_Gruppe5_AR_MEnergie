@@ -16,7 +16,7 @@ public class ExitGameDeviceButton : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         { 
-          SceneManager.LoadScene(sceneIndex - 1);
+          Application.Quit();
         }
     }
 }
