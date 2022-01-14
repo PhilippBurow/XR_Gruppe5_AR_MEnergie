@@ -40,6 +40,11 @@ public class SpawnManager : MonoBehaviour
                 SpawnedWindTurbine = Instantiate(WindTurbinePrefab, ray.origin, Quaternion.identity);
             }
         }
+        
+        
+        // Neuer Abschnitt zu Testen des Löschen
+
+        // Bis Hier
     }
 
     private bool isPointerOverUI(Vector2 fingerPosition)

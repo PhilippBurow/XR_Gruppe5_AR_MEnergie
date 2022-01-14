@@ -4,8 +4,6 @@ ScriptsOnlyBuild:
     - ArTapToPlaceObject
     - ChangeScene
     - DeviceBackButton
-    - DeviceBackButton2
-    - ExitGameDeviceButton
     - PlaneHiding
     - RotateWindTurbine
     - ScaleSlider
@@ -127,23 +125,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3430}
     - Class: 114
-      Script: {instanceID: 3890}
+      Script: {instanceID: 3762}
     - Class: 114
-      Script: {instanceID: 3952}
+      Script: {instanceID: 3892}
     - Class: 114
-      Script: {instanceID: 4050}
+      Script: {instanceID: 3954}
     - Class: 114
-      Script: {instanceID: 4260}
+      Script: {instanceID: 4052}
     - Class: 114
-      Script: {instanceID: 4540}
+      Script: {instanceID: 4262}
     - Class: 114
-      Script: {instanceID: 4678}
+      Script: {instanceID: 4542}
     - Class: 114
-      Script: {instanceID: 4802}
+      Script: {instanceID: 4680}
     - Class: 114
-      Script: {instanceID: 5082}
+      Script: {instanceID: 4804}
     - Class: 114
-      Script: {instanceID: 19694}
+      Script: {instanceID: 5084}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -192,11 +190,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1528}
     - Class: 114
-      Script: {instanceID: 2394}
-    - Class: 114
       Script: {instanceID: 2536}
     - Class: 114
       Script: {instanceID: 2660}
+    - Class: 114
+      Script: {instanceID: 2702}
     - Class: 114
       Script: {instanceID: 2890}
     - Class: 114
@@ -251,6 +249,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2660}
     - Class: 114
+      Script: {instanceID: 2702}
+    - Class: 114
       Script: {instanceID: 2890}
     - Class: 114
       Script: {instanceID: 2964}
@@ -258,8 +258,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3112}
     - Class: 114
       Script: {instanceID: 3230}
-    - Class: 114
-      Script: {instanceID: 3256}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -324,7 +322,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3430}
     - Class: 114
-      Script: {instanceID: 4260}
+      Script: {instanceID: 4262}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -492,12 +490,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARParticipantManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DeviceBackButton2
   - hash:
       serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
@@ -680,12 +672,6 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ExitGameDeviceButton
-  - hash:
-      serializedVersion: 2
       Hash: 290afc8da8e459e0b8dc7444bfaf5e35
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -786,6 +772,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RotateWindTurbine
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -1074,16 +1066,10 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RotateWindTurbine
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/StartSceneEE.unity
   - Assets/Scenes/ARScene.unity
   - Assets/Scenes/DisasterScene.unity
-  playerPath: C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie_7.apk
+  playerPath: C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie_8.apk
