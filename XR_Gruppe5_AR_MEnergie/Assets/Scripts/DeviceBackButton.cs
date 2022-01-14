@@ -14,9 +14,18 @@ public class DeviceBackButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+
+        if ((SceneManager.GetActiveScene().name == "StartSceneEE" || SceneManager.GetActiveScene().name == "ARScene") && Input.GetKeyDown(KeyCode.Escape))
         {
             SceneManager.LoadScene(sceneIndex - 1);
+        }
+        else if (SceneManager.GetActiveScene().name == "DisasterScene" && Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(sceneIndex - 3);
+        }
+        else if (SceneManager.GetActiveScene().name == "MainMenu" && Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
         }
     }
 }
