@@ -27,8 +27,6 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARPoseDriver
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
-    Unity.XR.ARKit.Editor.dll:
-    - UnityEditor.XR.ARKit.ARKitSettings
     Unity.XR.ARKit.dll:
     - UnityEngine.XR.ARKit.ARKitLoader
     Unity.XR.Management.Editor.dll:
@@ -101,47 +99,47 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2176}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2568}
+      Script: {instanceID: 2566}
     - Class: 114
-      Script: {instanceID: 2660}
+      Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 2702}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2748}
+      Script: {instanceID: 2746}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 2888}
     - Class: 114
-      Script: {instanceID: 2964}
+      Script: {instanceID: 2962}
     - Class: 114
-      Script: {instanceID: 3112}
+      Script: {instanceID: 3110}
+    - Class: 114
+      Script: {instanceID: 3226}
     - Class: 114
       Script: {instanceID: 3228}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3422}
     - Class: 114
       Script: {instanceID: 3426}
     - Class: 114
-      Script: {instanceID: 3430}
+      Script: {instanceID: 3758}
     - Class: 114
-      Script: {instanceID: 3762}
+      Script: {instanceID: 3888}
     - Class: 114
-      Script: {instanceID: 3892}
+      Script: {instanceID: 3950}
     - Class: 114
-      Script: {instanceID: 3954}
+      Script: {instanceID: 4048}
     - Class: 114
-      Script: {instanceID: 4052}
+      Script: {instanceID: 4258}
     - Class: 114
-      Script: {instanceID: 4262}
+      Script: {instanceID: 4538}
     - Class: 114
-      Script: {instanceID: 4542}
+      Script: {instanceID: 4676}
     - Class: 114
-      Script: {instanceID: 4680}
+      Script: {instanceID: 4800}
     - Class: 114
-      Script: {instanceID: 4804}
-    - Class: 114
-      Script: {instanceID: 5084}
+      Script: {instanceID: 5080}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -190,19 +188,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1528}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2660}
+      Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 2702}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 2888}
     - Class: 114
-      Script: {instanceID: 2964}
+      Script: {instanceID: 2962}
     - Class: 114
-      Script: {instanceID: 3112}
+      Script: {instanceID: 3110}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3228}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -245,19 +243,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2176}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2660}
+      Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 2702}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 2888}
     - Class: 114
-      Script: {instanceID: 2964}
+      Script: {instanceID: 2962}
     - Class: 114
-      Script: {instanceID: 3112}
+      Script: {instanceID: 3110}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3228}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -302,27 +300,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2176}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2568}
+      Script: {instanceID: 2566}
     - Class: 114
-      Script: {instanceID: 2660}
+      Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 2702}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 2888}
     - Class: 114
-      Script: {instanceID: 2964}
+      Script: {instanceID: 2962}
     - Class: 114
-      Script: {instanceID: 3112}
+      Script: {instanceID: 3110}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3228}
+    - Class: 114
+      Script: {instanceID: 3422}
     - Class: 114
       Script: {instanceID: 3426}
     - Class: 114
-      Script: {instanceID: 3430}
-    - Class: 114
-      Script: {instanceID: 4262}
+      Script: {instanceID: 4258}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -852,7 +850,7 @@ ScriptsOnlyBuild:
     className: ARCoreLoaderSettings
   - hash:
       serializedVersion: 2
-      Hash: 70c49fcb87acfc31eba666156e6f9b5e
+      Hash: 6991ee4bd933ff705495af444c0d2778
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnManager
@@ -1072,4 +1070,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/StartSceneEE.unity
   - Assets/Scenes/ARScene.unity
   - Assets/Scenes/DisasterScene.unity
-  playerPath: C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie_8.apk
+  playerPath: C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie_9.apk

@@ -10,6 +10,7 @@ public class SpawnManager : MonoBehaviour
     public GameObject WindTurbinePrefab;
     public Camera ARCamera;
     public GameObject SpawnedWindTurbine;
+    public Toggle Delete;
 
     private List<RaycastResult> raycastResults = new List<RaycastResult>();
 
@@ -40,10 +41,17 @@ public class SpawnManager : MonoBehaviour
                 SpawnedWindTurbine = Instantiate(WindTurbinePrefab, ray.origin, Quaternion.identity);
             }
         }
-        
-        
-        // Neuer Abschnitt zu Testen des Löschen
 
+        // Neuer Abschnitt zu Testen des Löschen
+        // Bedingung Mausposition + Toggle (+ Abfrage Wenn Mausposition über Prefab (Windturbine))
+
+       // if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+       // {
+       //     if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId)) // && Delete.isOn)
+       //     {
+       //         Destroy(WindTurbinePrefab);
+        //    }
+       // }
         // Bis Hier
     }
 
