@@ -6,7 +6,6 @@ ScriptsOnlyBuild:
     - DeviceBackButton
     - PlaneHiding
     - RotateWindTurbine
-    - ScaleSlider
     - SpawnManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -68,8 +67,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 81
@@ -106,8 +103,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2658}
     - Class: 114
       Script: {instanceID: 2700}
-    - Class: 114
-      Script: {instanceID: 2746}
     - Class: 114
       Script: {instanceID: 2888}
     - Class: 114
@@ -1070,4 +1065,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/StartSceneEE.unity
   - Assets/Scenes/ARScene.unity
   - Assets/Scenes/DisasterScene.unity
-  playerPath: C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie_9.apk
+  playerPath: C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie_11.apk

@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637767854305602055
+      ticks: 637778543984716676
     m_Hash: 935954155
   m_LockFileStatus:
     m_FilePath: C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie/XR_Gruppe5_AR_MEnergie/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637767854307147930
+      ticks: 637778543984726752
     m_Hash: 3427979244
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -194,6 +194,7 @@ m_PackageAssets:
         - 3.0.6
         - 3.0.7
         - 3.0.9
+        - 3.0.10
         compatible:
         - 1.0.2
         - 1.0.6
@@ -221,6 +222,7 @@ m_PackageAssets:
         - 3.0.6
         - 3.0.7
         - 3.0.9
+        - 3.0.10
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -3466,6 +3468,7 @@ m_PackageAssets:
         - 2.1.14
         - 2.1.16
         - 2.1.18
+        - 2.1.19
         - 2.2.0-preview.2
         - 2.2.0-preview.3
         - 2.2.0-preview.6
@@ -3518,8 +3521,10 @@ m_PackageAssets:
         - 4.2.0-pre.12
         - 4.2.0
         - 4.2.1
+        - 4.2.2
         - 5.0.0-pre.5
         - 5.0.0-pre.6
+        - 5.0.0-pre.7
         compatible:
         - 4.1.7
         - 4.2.0-pre.2
@@ -3533,6 +3538,7 @@ m_PackageAssets:
         - 4.2.0-pre.12
         - 4.2.0
         - 4.2.1
+        - 4.2.2
         verified: 4.1.7
       dependencies:
       - name: com.unity.subsystemregistration
