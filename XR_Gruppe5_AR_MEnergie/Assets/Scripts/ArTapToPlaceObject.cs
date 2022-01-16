@@ -5,6 +5,7 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.Experimental.XR;
 using UnityEngine.XR.ARSubsystems;
 
+
 public class ArTapToPlaceObject : MonoBehaviour
 {
     public GameObject objectToPlace;
@@ -13,19 +14,19 @@ public class ArTapToPlaceObject : MonoBehaviour
     private Pose placementPose;
     private bool placementPoseIsValid = false;
 
+
     void Start()
     {
         arOrigin = FindObjectOfType<ARRaycastManager>();
     }
-
-
-    void Update()
+        void Update()
     {
         UpdatePlacementPose();
         UpdatePlacementIndicator();
 
       if (placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
-       {
+            if (Input.GetMouseButtonDown(0))
+            {
           PlaceObject();
        }
     }
@@ -53,7 +54,7 @@ public class ArTapToPlaceObject : MonoBehaviour
     {
         var screenCenter = Camera.current.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
         var hits = new List<ARRaycastHit>();
-        arOrigin.Raycast(screenCenter, hits, TrackableType.Planes);
+        arOrigin.Raycast(screenCenter, hits, TrackableType.PlaneWithinInfinity); // PlaneWithinInfinity oder Plane
 
         placementPoseIsValid = hits.Count > 0;
         if(placementPoseIsValid)

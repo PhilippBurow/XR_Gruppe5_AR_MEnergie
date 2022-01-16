@@ -2,8 +2,10 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ArTapToPlaceObject
+    - ChangeMaterial
     - ChangeScene
     - DeviceBackButton
+    - Placementindicator
     - PlaneHiding
     - RotateWindTurbine
     - SpawnManager
@@ -24,6 +26,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARPointCloudManager
     - UnityEngine.XR.ARFoundation.ARPointCloudParticleVisualizer
     - UnityEngine.XR.ARFoundation.ARPoseDriver
+    - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
     Unity.XR.ARKit.dll:
@@ -66,6 +69,8 @@ ScriptsOnlyBuild:
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
@@ -134,14 +139,20 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4800}
     - Class: 114
+      Script: {instanceID: 4978}
+    - Class: 114
       Script: {instanceID: 5080}
+    - Class: 114
+      Script: {instanceID: 28752}
+    - Class: 114
+      Script: {instanceID: 52066}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
-    - Class: 136
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -1059,10 +1070,28 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: e5cb957fd4a55f0d604c4eb3ce57d181
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Placementindicator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Distance
+  - hash:
+      serializedVersion: 2
+      Hash: 6b990d978f0bb8f602c53242cc9019cf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeMaterial
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/StartSceneEE.unity
   - Assets/Scenes/ARScene.unity
   - Assets/Scenes/DisasterScene.unity
-  playerPath: C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie_11.apk
+  playerPath: C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie_12.apk
