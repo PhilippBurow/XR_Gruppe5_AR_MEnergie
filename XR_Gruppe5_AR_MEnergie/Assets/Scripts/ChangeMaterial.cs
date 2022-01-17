@@ -8,9 +8,9 @@ public class ChangeMaterial : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player"))
+        if(other.CompareTag("Player")) // Auf dem GameObject welches gemeint ist muss der Tag "Player liegen" Der Collider muss "Is Triggert" sein.
         {
-            myMaterial.color = Color.red;
+            myMaterial.color = Color.red; 
         }
     }
 

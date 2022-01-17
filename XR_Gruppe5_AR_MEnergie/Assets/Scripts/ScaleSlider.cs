@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class ScaleSlider : MonoBehaviour
 {
     // Erstellen einer Variable 
-
     private Slider scaleSlider;
 
 
