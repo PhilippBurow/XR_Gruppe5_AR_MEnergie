@@ -2240,9 +2240,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8330870666969176648}
-  - component: {fileID: 7832314510418251374}
   - component: {fileID: 8984905521389691800}
   - component: {fileID: 8746312114320619129}
+  - component: {fileID: 6953466307862270697}
   m_Layer: 0
   m_Name: WindTurbine
   m_TagString: Untagged
@@ -2258,7 +2258,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8707395518195237106}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.4, z: 0}
+  m_LocalPosition: {x: 0, y: 0.71, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 4609437692706397075}
@@ -2266,19 +2266,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &7832314510418251374
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8707395518195237106}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 5
-  m_Center: {x: 0, y: -2.2, z: 0}
 --- !u!54 &8984905521389691800
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2308,3 +2295,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myMaterial: {fileID: 2100000, guid: c6979afd62542804f83961380c11f670, type: 2}
+--- !u!136 &6953466307862270697
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707395518195237106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 5
+  m_Height: 10
+  m_Direction: 1
+  m_Center: {x: 0, y: 2, z: 0}
