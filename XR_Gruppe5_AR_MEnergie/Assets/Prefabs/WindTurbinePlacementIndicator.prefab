@@ -25,8 +25,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4502054556182819095}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.18}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.18000004}
   m_LocalScale: {x: 1, y: 0.01, z: 1}
   m_Children: []
   m_Father: {fileID: 4502054557933986690}
@@ -130,6 +130,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectToPlace: {fileID: 8707395518195237106, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
+  DeleteToggle: {fileID: 0}
+  ARCamera: {fileID: 0}
 --- !u!136 &4502054557933986689
 CapsuleCollider:
   m_ObjectHideFlags: 0

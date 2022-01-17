@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &7433536 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4502054557933986693, guid: fb181ef4b5d202b458d657af0af84e8b, type: 3}
+  m_PrefabInstance: {fileID: 545561284}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &7433537
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7433536}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.2
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &109335719
 GameObject:
   m_ObjectHideFlags: 0
@@ -5458,6 +5476,26 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4502054556182819092, guid: fb181ef4b5d202b458d657af0af84e8b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502054557933986689, guid: fb181ef4b5d202b458d657af0af84e8b, type: 3}
+      propertyPath: m_Height
+      value: 3.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502054557933986689, guid: fb181ef4b5d202b458d657af0af84e8b, type: 3}
+      propertyPath: m_Radius
+      value: 0.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502054557933986689, guid: fb181ef4b5d202b458d657af0af84e8b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502054557933986689, guid: fb181ef4b5d202b458d657af0af84e8b, type: 3}
+      propertyPath: m_Center.y
+      value: 0.86
+      objectReference: {fileID: 0}
     - target: {fileID: 4502054557933986690, guid: fb181ef4b5d202b458d657af0af84e8b, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -5522,6 +5560,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: WindTurbinePlacementIndicator
       objectReference: {fileID: 0}
+    - target: {fileID: 4502054557933986693, guid: fb181ef4b5d202b458d657af0af84e8b, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502054557933986702, guid: fb181ef4b5d202b458d657af0af84e8b, type: 3}
+      propertyPath: DeleteToggle
+      value: 
+      objectReference: {fileID: 109335721}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb181ef4b5d202b458d657af0af84e8b, type: 3}
 --- !u!1 &705507993
@@ -6388,7 +6434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 3404255912324848973, guid: 196e263eb827aae4bbe8cb48304b87df, type: 3}
-  m_DetectionMode: 2
+  m_DetectionMode: 1
 --- !u!114 &1235945110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6819,7 +6865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2519049802978830799, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -4427
       objectReference: {fileID: 0}
     - target: {fileID: 2519049802978830799, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
       propertyPath: m_LocalRotation.w

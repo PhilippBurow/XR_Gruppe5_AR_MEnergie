@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ChangeMaterial : MonoBehaviour
+
 {
+    public Toggle DeleteToggle;
+
     [SerializeField] private Material myMaterial;
 
     private void OnTriggerEnter(Collider other)
@@ -21,5 +25,4 @@ public class ChangeMaterial : MonoBehaviour
             myMaterial.color = Color.green;
         }
     }
-
 }

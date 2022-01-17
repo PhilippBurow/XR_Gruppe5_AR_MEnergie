@@ -26,7 +26,16 @@ public class Placementindicator : MonoBehaviour
                 Debug.Log("Distance = False");
         }
      }
-     private void OnTriggerExit(Collider other)
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            Distance = false;
+                Debug.Log("Distance = False");
+        }
+    }
+    private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {
@@ -46,6 +55,7 @@ public class Placementindicator : MonoBehaviour
     {
         rayManager = FindObjectOfType<ARRaycastManager>(); // Sucht den ARRaycastManager im Project
         visual = transform.GetChild(0).gameObject; // sucht das Child, also das GameObject auf dem das Skript liegt
+       
 
         // Placementindicator bei App-Start erstmal ausblenden (bis Plane erkannt wird)
         visual.SetActive(false);
@@ -72,7 +82,7 @@ public class Placementindicator : MonoBehaviour
 
         //Erweiterung Maus/Finger Position
 
-        if ((Input.GetMouseButtonDown(0) && DeleteToggle.isOn == false|| ((Input.touchCount > 0) && (Input.GetTouch(0).phase == TouchPhase.Began) && (Distance == true) && !DeleteToggle.isOn == false)))
+        if ((((Input.touchCount > 0) && (Input.GetTouch(0).phase == TouchPhase.Began) && (Distance == true) && (!DeleteToggle.isOn == true))))
         {
             Debug.Log("Mouse down");
 
@@ -89,28 +99,8 @@ public class Placementindicator : MonoBehaviour
             else
             {
                 GameObject prefab_gameobject = Instantiate(ObjectToPlace, transform.position, transform.rotation);
-                // Game Object zerstören
-                Destroy(prefab_gameobject, 60.0f); // Nach 60 Sekunden z.B.
             }
         }
-        if (DeleteToggle.isOn && Input.GetMouseButtonDown(0)) //wenn Toggle aktiv 
-        {
-            Debug.Log("Löschen aktiv");
-            Ray ray = ARCamera.ScreenPointToRay(Input.mousePosition);
-            Debug.Log(ray);
-            RaycastHit hit;
-            //Check if finger is over a UI element
-
-            if (Physics.Raycast(ray, out hit))
-            {
-                CapsuleCollider cc = hit.collider as CapsuleCollider;
-                if (cc != null)
-                {
-                    Destroy(cc.gameObject);
-                }
-            }
-        }
-
 
     }
 

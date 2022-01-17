@@ -13,6 +13,7 @@ public class Delete : MonoBehaviour
 
     public void Update()
     {
+
         if (DeleteToggle.isOn == true && Input.GetMouseButtonDown(0)) //wenn Toggle aktiv 
         {
             Debug.Log("Löschen aktiv");
