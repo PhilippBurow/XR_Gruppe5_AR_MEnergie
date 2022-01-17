@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 109335720}
   - component: {fileID: 109335721}
-  - component: {fileID: 109335722}
   m_Layer: 5
   m_Name: Delete
   m_TagString: Untagged
@@ -222,19 +221,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   m_IsOn: 0
---- !u!114 &109335722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 109335719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f0472c5224454f48a1cb8e918602fb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DeleteToggle: {fileID: 109335721}
 --- !u!1 &179891413
 GameObject:
   m_ObjectHideFlags: 0
@@ -5516,6 +5502,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4502054557933986691, guid: fb181ef4b5d202b458d657af0af84e8b, type: 3}
+      propertyPath: ARCamera
+      value: 
+      objectReference: {fileID: 777033830}
+    - target: {fileID: 4502054557933986691, guid: fb181ef4b5d202b458d657af0af84e8b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502054557933986691, guid: fb181ef4b5d202b458d657af0af84e8b, type: 3}
+      propertyPath: DeleteToggle
+      value: 
+      objectReference: {fileID: 109335721}
+    - target: {fileID: 4502054557933986691, guid: fb181ef4b5d202b458d657af0af84e8b, type: 3}
+      propertyPath: ObjectToPlace
+      value: 
+      objectReference: {fileID: 1280132799}
     - target: {fileID: 4502054557933986693, guid: fb181ef4b5d202b458d657af0af84e8b, type: 3}
       propertyPath: m_Name
       value: WindTurbinePlacementIndicator
@@ -6614,6 +6616,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1247811539}
   m_CullTransparentMesh: 1
+--- !u!1 &1280132799 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5598937946853577904, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
+  m_PrefabInstance: {fileID: 1322384427}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1284297351
 GameObject:
   m_ObjectHideFlags: 0
@@ -6783,6 +6790,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1297372378}
   m_CullTransparentMesh: 1
+--- !u!1001 &1322384427
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 443926949013787541, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
+      propertyPath: ARCamera
+      value: 
+      objectReference: {fileID: 777033830}
+    - target: {fileID: 443926949013787541, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
+      propertyPath: DeleteToggle
+      value: 
+      objectReference: {fileID: 109335721}
+    - target: {fileID: 2519049802978830799, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519049802978830799, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519049802978830799, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519049802978830799, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519049802978830799, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519049802978830799, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519049802978830799, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519049802978830799, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519049802978830799, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519049802978830799, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519049802978830799, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5598937946853577904, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
+      propertyPath: m_Name
+      value: WindTurbine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a47cf462e04cb6c4c8aecf03ad216e4b, type: 3}
 --- !u!1 &1370026367
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,30 +9,30 @@ using UnityEngine.XR.ARSubsystems;
 public class Delete : MonoBehaviour
 {
     public Toggle DeleteToggle;
-    // Update is called once per frame
-    void Update()
+    public Camera ARCamera;
+
+    public void Update()
     {
-        
+        if (DeleteToggle.isOn == true && Input.GetMouseButtonDown(0)) //wenn Toggle aktiv 
+        {
             Debug.Log("Löschen aktiv");
-            if (Input.GetMouseButtonDown(0))
+            Ray ray = ARCamera.ScreenPointToRay(Input.mousePosition);
+            Debug.Log(ray);
+            RaycastHit hit;
+            //Check if finger is over a UI element
+
+            if (Physics.Raycast(ray, out hit))
             {
-                Debug.Log("Schritt1");
-                // Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
-                //Debug.Log(ray);
-                /*RaycastHit hit;
-                // Check if finger is over a UI element
-                if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
+                CapsuleCollider cc = hit.collider as CapsuleCollider;
+                if (cc != null)
                 {
-                    Debug.Log("Touched the UI");
+                    Destroy(cc.gameObject);
                 }
-                else if(Physics.Raycast(ray, out hit))
-                {
-                    if (Input.GetTouch(0).deltaTime > 0.2f)
-                    {
-                        Destroy(hit.transform.gameObject);
-                    }
-                }*/
             }
-        
+        }
+        else if (DeleteToggle.isOn == false)
+        {
+            Debug.Log("exit");
+        }
     }
 }
