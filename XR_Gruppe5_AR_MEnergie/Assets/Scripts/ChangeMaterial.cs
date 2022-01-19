@@ -18,6 +18,13 @@ public class ChangeMaterial : MonoBehaviour
         }
     }
 
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Player")) 
+        {
+            myMaterial.color = Color.red;
+        }
+    }
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
