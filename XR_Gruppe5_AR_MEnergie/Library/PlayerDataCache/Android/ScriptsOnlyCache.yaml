@@ -307,6 +307,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1530}
     - Class: 114
+      Script: {instanceID: 1630}
+    - Class: 114
       Script: {instanceID: 1646}
     - Class: 114
       Script: {instanceID: 2180}
@@ -330,6 +332,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3428}
     - Class: 114
       Script: {instanceID: 3432}
+    - Class: 114
+      Script: {instanceID: 3956}
     - Class: 114
       Script: {instanceID: 4264}
     - Class: 115
@@ -1105,4 +1109,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/StartSceneEE.unity
   - Assets/Scenes/ARScene.unity
   - Assets/Scenes/DisasterScene.unity
-  playerPath: C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie_14.apk
+  playerPath: C:/Users/danie/Desktop/EEtest.apk

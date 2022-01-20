@@ -106,18 +106,18 @@ public class Placementindicator : MonoBehaviour
             }
         }
 
-        if(DeleteToggle.isOn == true)
+        if (DeleteToggle.isOn == true)
         {
             visual.SetActive(false);
-        }
 
+        
         if ((DeleteToggle.isOn == false) && (!visual.activeInHierarchy))
-        {
+        
             visual.SetActive(false);
             myMaterial.color = Color.green; // Problem: Farbe bleibt in dem Zustand, in dem Sie ist, wenn das Object gelöscht wird. Wenn kein Collider mehr da ist den der
-                                            // Placementindicator verlassen kann, bleit die Farbe rot.
+            Distance = true;                                // Placementindicator verlassen kann, bleit die Farbe rot.
         }
-
+        
     }
 
 }
