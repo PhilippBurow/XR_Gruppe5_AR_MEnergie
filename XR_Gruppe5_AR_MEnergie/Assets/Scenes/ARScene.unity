@@ -5936,7 +5936,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9183f66ba954c48429d1d005a557559d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bd1b7a7ae90a1d64ebf70f82752b44f9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7132,7 +7132,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1497655676}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: Quit
+        m_MethodName: Back
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

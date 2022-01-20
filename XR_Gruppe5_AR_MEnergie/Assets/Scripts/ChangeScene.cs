@@ -27,9 +27,13 @@ public class ChangeScene : MonoBehaviour
     public void Back()
     {
         Debug.Log("Active Scene : " + SceneManager.GetActiveScene().name);
-        if (SceneManager.GetActiveScene().name == "StartSceneEE" || SceneManager.GetActiveScene().name == "ARScene")
+        if (SceneManager.GetActiveScene().name == "StartSceneEE")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        }
+        else if (SceneManager.GetActiveScene().name == "ARScene")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
         }
         else if(SceneManager.GetActiveScene().name == "DisasterScene")
         {
