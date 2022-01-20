@@ -226,6 +226,55 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    Assets/Scenes/InfoScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1530}
+    - Class: 114
+      Script: {instanceID: 1646}
+    - Class: 114
+      Script: {instanceID: 2540}
+    - Class: 114
+      Script: {instanceID: 2664}
+    - Class: 114
+      Script: {instanceID: 2894}
+    - Class: 114
+      Script: {instanceID: 2968}
+    - Class: 114
+      Script: {instanceID: 3116}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/MainMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -1108,5 +1157,6 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/StartSceneEE.unity
   - Assets/Scenes/ARScene.unity
+  - Assets/Scenes/InfoScene.unity
   - Assets/Scenes/DisasterScene.unity
   playerPath: C:/Users/danie/Desktop/EEtest.apk

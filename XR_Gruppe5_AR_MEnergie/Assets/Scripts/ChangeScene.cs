@@ -8,6 +8,7 @@ public class ChangeScene : MonoBehaviour
 {
     public Toggle Renewable;
     public Toggle Desaster;
+    
     //Wenn die für Erneuerbare Energien zuständigen Buttons betätigt werden, wir auf den Index der Scene 1 addiert. Bei Buttons
     //für Umweltkatastrophen der Index 3, um auf den richten Screen zu kommen (s. Build Settings)
     public void ChangeScreen()
@@ -27,7 +28,7 @@ public class ChangeScene : MonoBehaviour
     public void Back()
     {
         Debug.Log("Active Scene : " + SceneManager.GetActiveScene().name);
-        if (SceneManager.GetActiveScene().name == "StartSceneEE")
+        if (SceneManager.GetActiveScene().name == "StartSceneEE" || SceneManager.GetActiveScene().name == "InfoScene")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
@@ -37,7 +38,7 @@ public class ChangeScene : MonoBehaviour
         }
         else if(SceneManager.GetActiveScene().name == "DisasterScene")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
         }
     }
     //hier wird die Anwendung beendet
