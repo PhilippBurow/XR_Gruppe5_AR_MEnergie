@@ -15,11 +15,11 @@ C:/Users/danie/XR_Gruppe5_AR_MEnergie/XR_Gruppe5_AR_MEnergie
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55073
+60856
 Successfully changed project path to: C:/Users/danie/XR_Gruppe5_AR_MEnergie/XR_Gruppe5_AR_MEnergie
 C:/Users/danie/XR_Gruppe5_AR_MEnergie/XR_Gruppe5_AR_MEnergie
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.24f1 (79c78de19888)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -35,151 +35,151 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002815 seconds.
+Registered in 0.002279 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.985 seconds
+- Completed reload, in  0.757 seconds
 Domain Reload Profiling:
-	ReloadAssembly (985ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (757ms)
+		BeginReloadAssembly (47ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (731ms)
-			LoadAssemblies (89ms)
+		EndReloadAssembly (630ms)
+			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
+			SetupTypeCache (159ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (272ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (303ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (51ms)
-				BeforeProcessingInitializeOnLoad (24ms)
-				ProcessInitializeOnLoadAttributes (138ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010878 seconds.
+Registered in 0.008783 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002D4126A0220 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.dll
+Symbol file data-0000020278F38780 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4125426B0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000020278C3A020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4184D4030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000020278BDF400 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4173859A0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000020278DEF990 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4171CA230 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002027D76A230 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4182E83D0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-000002027E90A040 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D417F34020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002027DFB9240 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D417F34020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000020278E11C70 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4118F9960 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file data-000002027EBC2430 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D417F34020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002027D82C230 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41862DD40 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.Editor.dll
+Symbol file data-0000020278B4F470 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412869800 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
+Symbol file data-0000020278BBD010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418923850 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-000002027EBD4190 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412495030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000020278AA2040 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D417721020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002027DCE4020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41787BC30 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002027D3C9990 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4176CD020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000020278E11C70 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4128563A0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-000002027DFCDC50 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4122AC890 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-0000020278DC73E0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41787BC30 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000002027D3C9990 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412869800 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-0000020278F2A3D0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4128B0010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002027DD38020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4125B4D40 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file data-0000020278B65010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D416B7F010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-00000202790A9B70 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4125B4D40 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-0000020278B65010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D417703640 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000020279073E50 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41787BC30 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.dll
+Symbol file data-000002027D3C9990 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4128D3220 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file data-000002027DD60630 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4128563A0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file data-0000020278C02F30 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412495080 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-000002027E8A3E90 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D417F08040 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file data-000002027DD60630 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 53.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 40.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.667 seconds
+- Completed reload, in  1.198 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1669ms)
-		BeginReloadAssembly (219ms)
+	ReloadAssembly (1199ms)
+		BeginReloadAssembly (184ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1364ms)
-			LoadAssemblies (154ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (943ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (457ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (518ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (312ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (53ms)
-				BeforeProcessingInitializeOnLoad (140ms)
-				ProcessInitializeOnLoadAttributes (290ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1933 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 82.0 MB.
 System memory in use after: 82.1 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2369.
-Total: 3.424400 ms (FindLiveObjects: 0.162100 ms CreateObjectMapping: 0.050500 ms MarkObjects: 3.114200 ms  DeleteObjects: 0.096000 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2370.
+Total: 2.584800 ms (FindLiveObjects: 0.144000 ms CreateObjectMapping: 0.036800 ms MarkObjects: 2.305700 ms  DeleteObjects: 0.097100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -194,135 +194,119 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/InfoScene.unity
-  artifactKey: Guid(33e861964bce81a409d36289286a8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/InfoScene.unity using Guid(33e861964bce81a409d36289286a8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1506ada339d251fb8048e01c6a92cce7') in 0.019275 seconds 
-  Import took 0.026054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.686780 seconds.
-  path: Assets/Scenes/ARScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ARScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d69f77e37be5ed7f887e986109a8909') in 0.008261 seconds 
-  Import took 0.012959 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 233.639938 seconds.
-  path: Assets/Scripts/ChangeScene.cs
-  artifactKey: Guid(c8aee8563c7cd5044a1fa8fc50465fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ChangeScene.cs using Guid(c8aee8563c7cd5044a1fa8fc50465fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cb96d7845b5175469c57207ee354a3') in 0.032776 seconds 
-  Import took 0.048956 seconds .
+  path: Assets/Scripts/OpenURL.cs
+  artifactKey: Guid(330a14ba742d1d74a8a22838f9bf5cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OpenURL.cs using Guid(330a14ba742d1d74a8a22838f9bf5cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7636f4e2bfbf0b4fa3b019d79b71fc2a') in 0.016377 seconds 
+  Import took 0.019022 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013759 seconds.
+Registered in 0.004114 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002D418B2D010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.dll
+Symbol file data-0000020278D66010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4125BA2F0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000200E187FE40 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41711D010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000020278FA9020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4173859A0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000020278D77B00 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418A40020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000200E2311480 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4182E83D0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-000002027EC83C20 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418A40020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002027E646030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D417F34020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002027DFA7030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D416CD6B30 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file data-000002027F41C580 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41B6B7020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002027D1F30A0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418145230 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.Editor.dll
+Symbol file data-0000020278F52020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412869800 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
+Symbol file data-00000200E1BF4ED0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41252A870 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-000002027DF9D6B0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412495030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000020278D66010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4176CD020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002027DCE4020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4126A0A20 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002027D3C9990 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41B239010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000200E1818020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418494220 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-00000200E13904A0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41B523820 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-0000020278867720 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412766250 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000002027D3C9990 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41B0E10B0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-000002027F3458A0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D417FCF010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002027DD38020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D221A039C0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file data-0000020278F27440 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412A46540 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-00000200E1001020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418A4E030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-0000020278F27440 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41711D010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000020278E044A0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412766250 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.dll
+Symbol file data-000002027D3C9990 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41711D010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file data-000002027E646030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4126A5030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file data-000002027F3D5440 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D416B7C410 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-00000200E8059E30 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41711D010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file data-00000200E197C030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.940 seconds
+- Completed reload, in  0.810 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1942ms)
-		BeginReloadAssembly (285ms)
+	ReloadAssembly (811ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (100ms)
-		EndReloadAssembly (1395ms)
-			LoadAssemblies (238ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (662ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (470ms)
+			SetupTypeCache (219ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (457ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (255ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (141ms)
-				ProcessInitializeOnLoadAttributes (287ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1923 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 81.4 MB.
 System memory in use after: 81.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2372.
-Total: 4.908800 ms (FindLiveObjects: 0.373100 ms CreateObjectMapping: 0.106200 ms MarkObjects: 4.382200 ms  DeleteObjects: 0.045500 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2373.
+Total: 2.866000 ms (FindLiveObjects: 0.137400 ms CreateObjectMapping: 0.037100 ms MarkObjects: 2.653700 ms  DeleteObjects: 0.036600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -338,536 +322,406 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 205.142203 seconds.
-  path: Assets/Scenes/ARScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ARScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdc5d1af1b53a99b30609107a6c4ff6') in 0.035660 seconds 
-  Import took 0.046714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.148137 seconds.
-  path: Assets/Scenes/InfoScene.unity
-  artifactKey: Guid(33e861964bce81a409d36289286a8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/InfoScene.unity using Guid(33e861964bce81a409d36289286a8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ca0d3e4d9a883ac29a03f1bb03c21b') in 0.005844 seconds 
-  Import took 0.010126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.291477 seconds.
-  path: Assets/Scenes/InfoScene.unity
-  artifactKey: Guid(33e861964bce81a409d36289286a8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/InfoScene.unity using Guid(33e861964bce81a409d36289286a8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe6b157d4d57f3635c09b3f463a9418') in 0.006357 seconds 
-  Import took 0.012716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 96.336691 seconds.
-  path: Assets/Scenes/InfoScene.unity
-  artifactKey: Guid(33e861964bce81a409d36289286a8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/InfoScene.unity using Guid(33e861964bce81a409d36289286a8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4db4e945f26179454cd672378892650') in 0.005514 seconds 
-  Import took 0.010015 seconds .
+  Time since last request: 675.995349 seconds.
+  path: Assets/Scripts/OpenURL.cs
+  artifactKey: Guid(330a14ba742d1d74a8a22838f9bf5cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OpenURL.cs using Guid(330a14ba742d1d74a8a22838f9bf5cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6f03d880fab1a41e4ca25107443cf2') in 0.007354 seconds 
+  Import took 0.011607 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010682 seconds.
+Registered in 0.005828 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002D416B6B020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.dll
+Symbol file data-0000020278D66010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41822BE40 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002027EB45030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41A64D020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000200E1DB6020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4128EB240 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000020278F38780 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41BE76010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000020278E044A0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4182E83D0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-000002027EC83C20 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41BE76010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002027D635010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D417F34020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002027DFA7030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D416CD5540 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file data-000002027EC19560 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41B6B7020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002027D1F30A0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418145230 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.Editor.dll
+Symbol file data-0000020278F52020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412869800 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
+Symbol file data-0000020278BBD010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4124987A0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-0000020278DC6360 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41A8FB020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000200E1AFE010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D416F35020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002027DF5D010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4182A9A90 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002027D1ED700 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41B239010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000200E1818020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41BB32220 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-000002027E775B00 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4184B7860 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-0000020278B3E070 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4182A9A90 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000002027D3C9990 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41BE230D0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-00000200E0B268C0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412911130 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000200E0C89EA0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D417E68020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file data-000002027E575530 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418A4E030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-00000200E1001020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418A4E030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-000002027F343290 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41BE76010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000020278E044A0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41AF80040 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.dll
+Symbol file data-000002027D1ED700 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41A64D020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file data-000002027D635010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41BB32220 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file data-000002027DD25440 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41B6E8CD0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-000002027D46C430 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41BE76010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file data-00000200E197C030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Domain Reload Profiling:
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (681ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.4 MB.
+System memory in use after: 81.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2376.
+Total: 2.537100 ms (FindLiveObjects: 0.136800 ms CreateObjectMapping: 0.039400 ms MarkObjects: 2.308900 ms  DeleteObjects: 0.050900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.5 MB.
+System memory in use after: 43.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2377.
+Total: 3.824400 ms (FindLiveObjects: 0.256900 ms CreateObjectMapping: 0.058600 ms MarkObjects: 3.474100 ms  DeleteObjects: 0.033600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005680 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020278D66010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027EB45030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027ECCB010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020278D77B00 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E197C030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027EC83C20 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027D635010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027DFA7030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E21C4F90 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027D1F30A0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E21DFE40 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027E60A060 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020278DC5B80 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027D1E2030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027DCE4020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027D3C9990 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E22A0CF0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027E77A4F0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020278B3B490 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027D3C9990 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E0B1F880 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E0C89EA0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027ED85040 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E1108010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027DE31ED0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E197C030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027D3C9990 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027D635010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E1108010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027D46C430 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E197C030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1006ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (830ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1923 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.2 MB.
+System memory in use after: 81.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2380.
+Total: 2.868100 ms (FindLiveObjects: 0.172500 ms CreateObjectMapping: 0.047900 ms MarkObjects: 2.613400 ms  DeleteObjects: 0.032400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.3 MB.
+System memory in use after: 43.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2380.
+Total: 6.146300 ms (FindLiveObjects: 0.433600 ms CreateObjectMapping: 0.097500 ms MarkObjects: 5.592700 ms  DeleteObjects: 0.021000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004119 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020278D66010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027EB45030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027E563020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020278F38780 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020278E31C80 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027EC83C20 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027DD6C030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027DFA7030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E1BF5B50 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027D1F30A0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020278B4F470 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E0C78030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020278DC4E60 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027D1E2030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027DCE4020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027D3C9990 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027D609080 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027E775070 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020278B3E070 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027D3C9990 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027E64B4B0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E0C89EA0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027DE2D990 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E1108010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027F17C8A0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020278E31C80 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E10E7020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002027DD6C030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E8046170 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020278AA2090 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200E197C030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.771 seconds
+- Completed reload, in  0.924 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1771ms)
-		BeginReloadAssembly (211ms)
+	ReloadAssembly (925ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (1431ms)
-			LoadAssemblies (195ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (777ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (482ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (533ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (143ms)
-				ProcessInitializeOnLoadAttributes (353ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1923 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.4 MB.
-System memory in use after: 81.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2375.
-Total: 3.378800 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.046800 ms MarkObjects: 3.123500 ms  DeleteObjects: 0.045200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 43.6 MB.
-System memory in use after: 43.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2376.
-Total: 6.254600 ms (FindLiveObjects: 0.245400 ms CreateObjectMapping: 0.078000 ms MarkObjects: 5.890000 ms  DeleteObjects: 0.039200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 217.050292 seconds.
-  path: Assets/Scenes/ARScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ARScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33158a70044724af2db7719c432688b0') in 0.027542 seconds 
-  Import took 0.032109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.552956 seconds.
-  path: Assets/Scenes/InfoScene.unity
-  artifactKey: Guid(33e861964bce81a409d36289286a8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/InfoScene.unity using Guid(33e861964bce81a409d36289286a8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c691b5ac85ac7d84c0548dbfc3b017d6') in 0.010510 seconds 
-  Import took 0.014245 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 10.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 43.5 MB.
-System memory in use after: 43.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2376.
-Total: 7.892300 ms (FindLiveObjects: 0.231500 ms CreateObjectMapping: 0.180600 ms MarkObjects: 7.449300 ms  DeleteObjects: 0.029600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 107.667810 seconds.
-  path: Assets/Scenes/ARScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ARScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4539497a5e740de82f9d41fd5c2e22') in 0.006674 seconds 
-  Import took 0.012292 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019343 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002D417608040 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41BE7FE40 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41A64D020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4128EB240 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418222010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4182E83D0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418A40020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D417F34020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D416CDE5E0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D416BBA1D0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41862DD40 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412869800 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412498260 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412975010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41AEE4020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41B5D2010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41268C010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4128F2840 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D221A28740 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41B5D2010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41A2BD890 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4179F5010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418145A30 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D417612040 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418A4E030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418222010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41B5D2010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41A64D020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41BE17980 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41B6D0930 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418222010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.233 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2234ms)
-		BeginReloadAssembly (290ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (19ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (86ms)
-		EndReloadAssembly (1606ms)
-			LoadAssemblies (231ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (536ms)
+			SetupTypeCache (279ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (614ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (172ms)
-				ProcessInitializeOnLoadAttributes (404ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1922 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.2 MB.
-System memory in use after: 81.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2379.
-Total: 6.548000 ms (FindLiveObjects: 0.284300 ms CreateObjectMapping: 0.059100 ms MarkObjects: 6.177700 ms  DeleteObjects: 0.024700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.20 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 43.4 MB.
-System memory in use after: 43.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2379.
-Total: 9.489400 ms (FindLiveObjects: 0.325700 ms CreateObjectMapping: 0.108000 ms MarkObjects: 8.933000 ms  DeleteObjects: 0.118500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 9.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 43.4 MB.
-System memory in use after: 43.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2379.
-Total: 5.391200 ms (FindLiveObjects: 0.300800 ms CreateObjectMapping: 0.218100 ms MarkObjects: 4.846800 ms  DeleteObjects: 0.023500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 330.740692 seconds.
-  path: Assets/Scenes/ARScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ARScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adbca215060e270882cb9b456d4c0af') in 0.029648 seconds 
-  Import took 0.121680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 84.902839 seconds.
-  path: Assets/Scenes/ARScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ARScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6defd89337e17803d312b225dddbb49b') in 0.008543 seconds 
-  Import took 0.013559 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 14.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 43.4 MB.
-System memory in use after: 43.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2379.
-Total: 6.162300 ms (FindLiveObjects: 0.416500 ms CreateObjectMapping: 0.173600 ms MarkObjects: 5.548800 ms  DeleteObjects: 0.021900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008473 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002D41294B030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4188CD020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412A1AEB0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4128EB240 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4171C9420 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4182E83D0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418A40020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41A1F4410 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41283D660 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41B6B7020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D417F5A020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412869800 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412495DA0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412975010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41B8E0070 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41B84E020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41268C010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418494220 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412A46D50 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41B84E020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4175E8070 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D43C4FAFD0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D417855600 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D416B58030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418A4E030 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4171C9420 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D41B91E020 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARCore.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D412A1AEB0 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D417236680 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D4178D7E00 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002D418222010 doesn't match image C:\Users\danie\XR_Gruppe5_AR_MEnergie\XR_Gruppe5_AR_MEnergie\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.719 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1720ms)
-		BeginReloadAssembly (242ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (71ms)
-		EndReloadAssembly (1316ms)
-			LoadAssemblies (214ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (496ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (427ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (260ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1922 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.3 MB.
-System memory in use after: 81.4 MB.
+Unloading 1923 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.2 MB.
+System memory in use after: 81.3 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2382.
-Total: 2.938800 ms (FindLiveObjects: 0.165400 ms CreateObjectMapping: 0.045000 ms MarkObjects: 2.700600 ms  DeleteObjects: 0.026100 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2383.
+Total: 2.931200 ms (FindLiveObjects: 0.142100 ms CreateObjectMapping: 0.043900 ms MarkObjects: 2.711400 ms  DeleteObjects: 0.032600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -883,14 +737,14 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 6.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 43.4 MB.
-System memory in use after: 43.5 MB.
+System memory in use before: 43.3 MB.
+System memory in use after: 43.4 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2382.
-Total: 3.497200 ms (FindLiveObjects: 0.287800 ms CreateObjectMapping: 0.103000 ms MarkObjects: 3.082800 ms  DeleteObjects: 0.022000 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2383.
+Total: 2.749700 ms (FindLiveObjects: 0.148200 ms CreateObjectMapping: 0.040000 ms MarkObjects: 2.543400 ms  DeleteObjects: 0.017000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -903,24 +757,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 166.230370 seconds.
-  path: Assets/Scenes/InfoScene.unity
-  artifactKey: Guid(33e861964bce81a409d36289286a8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/InfoScene.unity using Guid(33e861964bce81a409d36289286a8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2e77807b1da74ce97f1198ba06d93a') in 0.013611 seconds 
-  Import took 0.016729 seconds .
-
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 5.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 43.4 MB.
+System memory in use before: 43.3 MB.
 System memory in use after: 43.5 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2382.
-Total: 6.011100 ms (FindLiveObjects: 0.176000 ms CreateObjectMapping: 0.050900 ms MarkObjects: 5.755200 ms  DeleteObjects: 0.027100 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2383.
+Total: 3.165100 ms (FindLiveObjects: 0.141200 ms CreateObjectMapping: 0.035100 ms MarkObjects: 2.966200 ms  DeleteObjects: 0.021500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -933,4 +779,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
