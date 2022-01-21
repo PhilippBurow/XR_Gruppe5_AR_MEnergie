@@ -933,9 +933,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Interessante Informationen:\n\nDer Sockel eines \xFCblichen Windkraftwekrs
+  m_Text: "Interessante Informationen:\n\nDer Sockel eines \xFCblichen Windkraftwerks
     ist 100 m\xB2 gro\xDF\n\nZufahrtswege betragen 5 m\n\nDie Abst\xE4nde zwischen
-    WIndkraftr\xE4dern m\xFCssen das 5-fache des Roterdurchmessers betragen"
+    WIndkraftr\xE4dern m\xFCssen das F\xFCnffache des Roterdurchmessers betragen"
 --- !u!222 &776786312
 CanvasRenderer:
   m_ObjectHideFlags: 0
