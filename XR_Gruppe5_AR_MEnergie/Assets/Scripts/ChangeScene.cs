@@ -20,7 +20,7 @@ public class ChangeScene : MonoBehaviour
         }
         else if (Desaster.isOn)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
         }
     }
     //Wenn man sich auf einem Screen der Erneuerbare Energien beinhalten befinden, wird ein Index zurück gegangen.
