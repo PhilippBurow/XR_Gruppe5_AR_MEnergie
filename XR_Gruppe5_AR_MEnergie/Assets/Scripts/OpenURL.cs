@@ -4,9 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
+// Skript zum Aufrfen der Quellen in der Info-Sceen
+
 public class OpenURL : MonoBehaviour
 {
-    public Button Button1;
+    public Button Button1; 
     public Button Button2;
 
     public void Quelle1()

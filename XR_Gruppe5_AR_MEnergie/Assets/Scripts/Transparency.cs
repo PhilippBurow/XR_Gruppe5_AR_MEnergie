@@ -3,26 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Skript zum Variieren der Transparenz des Hintergrundbildes in der Sceen Smog über einen
+// Slider im UI 
+
 public class Transparency : MonoBehaviour
 {
-    public Image img;
-    private Slider SmogSlider;
+    // Variablen für die Smog-Sceen festlegen
+    public Image img; // Hintergrundbild von dem die Transparenz geändert wird
+    private Slider SmogSlider; // Slider über den in UI die Transparenz geändert werden kann 
 
     // Start is called before the first frame update
     void Start()
     {
-        // Slider in Hierarchy finden
+        // Slider "SmogSlider" in Hierarchy finden 
         SmogSlider = GameObject.Find("SmogSlider").GetComponent<Slider>();
         SmogSlider.onValueChanged.AddListener(ScaleSliderUpdate);
     }
 
     void ScaleSliderUpdate(float value)
     {
-        img.color = new Color(1.0f, 1.0f, 1.0f, value);
+        // Transparenz des Hintergrundbildes über "value" verändern
+        img.color = new Color(1.0f, 1.0f, 1.0f, value); 
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
+
+
+
+

@@ -5,19 +5,20 @@ using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
+// Skript zum Ein-/Ausblenden der erkannten Flächen auf denen die Windkraftanlagen gespawnt
+// werden 
 
 [RequireComponent(typeof(ARPlaneManager))]
 public class PlaneHiding : MonoBehaviour
 {
-
     private ARPlaneManager planeManager;
-    [SerializeField]
-    private Text toggleButtonText;
+    public Text toggleButtonText; 
 
     private void Awake()
     {
         planeManager = GetComponent<ARPlaneManager>();
-        toggleButtonText.text = "Erkannte Flächen ausblenden";
+        //Textfeld des Toggels bei Starten auf "Erkannte Flächen ausblenden" setzen
+        toggleButtonText.text = "Erkannte Flächen ausblenden"; 
     }
 
     public void TogglePlaneDetection()
@@ -40,7 +41,7 @@ public class PlaneHiding : MonoBehaviour
         toggleButtonText.text = toggleButtonMessage;
     }
 
-    private void SetAllPlanesActive(bool value)
+    private void SetAllPlanesActive(bool value) 
     {
         foreach (var plane in planeManager.trackables)
         {

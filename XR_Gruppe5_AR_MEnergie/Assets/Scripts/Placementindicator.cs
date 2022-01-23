@@ -6,6 +6,7 @@ using UnityEngine.XR.ARSubsystems;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
+// Skript 
 public class Placementindicator : MonoBehaviour
 {
     private ARRaycastManager rayManager;
@@ -18,7 +19,9 @@ public class Placementindicator : MonoBehaviour
     private List<RaycastResult> raycastResults = new List<RaycastResult>();
     [SerializeField] private Material myMaterial;
 
-    // Wenn im Collider vom Prefab WindTurbine (Tag "Player") kann nicht gespawnt werden -> Kreis ist Rot.
+    // Wenn im Collider vom Prefab WindTurbine (Tag "Player") kann nicht gespawnt werden
+    // -> Kreis ist Rot
+
     private void OnTriggerEnter(Collider other)
      {   
         if (other.CompareTag("Player"))
@@ -58,8 +61,10 @@ public class Placementindicator : MonoBehaviour
 
     void Start()
     {
-        rayManager = FindObjectOfType<ARRaycastManager>(); // Sucht den ARRaycastManager im Project
-        visual = transform.GetChild(0).gameObject; // sucht das Child vom GameObject auf dem das Skript liegt
+        // Sucht den ARRaycastManager im Projekt
+        rayManager = FindObjectOfType<ARRaycastManager>();
+        // Sucht das Child vom GameObject auf dem das Skript liegt
+        visual = transform.GetChild(0).gameObject; 
        
         // Placementindicator bei App-Start erstmal ausblenden (bis Plane erkannt wird)
         visual.SetActive(false);
@@ -68,10 +73,12 @@ public class Placementindicator : MonoBehaviour
      void Update()
     {
 
-        // "Strahl" dauerhaft (Update) aus der Bildschirmmitte "schießen". Wenn dieser ein "Trackable", in unserem Fall eine Plane trifft wird diese Position/Rotation gespeichert.
+        // "Strahl" dauerhaft (Update) aus der Bildschirmmitte "schießen". Wenn dieser ein
+        // "Trackable", in unserem Fall eine Plane trifft wird diese Position/Rotation
+        // gespeichert.
         // Bezugsposition ist in diesem Fall die AR Camera
         List<ARRaycastHit> hits = new List<ARRaycastHit>();
-        rayManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, TrackableType.Planes); // vllt. PlaneWithinInfinity?
+        rayManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, TrackableType.Planes);
 
         // Die Position/Rotation wird dauerhaft (Update) aktuell gehalten.
         if (hits.Count > 0)
@@ -114,8 +121,8 @@ public class Placementindicator : MonoBehaviour
         if ((DeleteToggle.isOn == false) && (!visual.activeInHierarchy))
         
             visual.SetActive(false);
-            myMaterial.color = Color.green; // Problem: Farbe bleibt in dem Zustand, in dem Sie ist, wenn das Object gelöscht wird. Wenn kein Collider mehr da ist den der
-            Distance = true;                                // Placementindicator verlassen kann, bleit die Farbe rot.
+            myMaterial.color = Color.green; 
+            Distance = true;
         }
         
     }

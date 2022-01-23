@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Skript um das Material, welches die Farbe des Fußes des WindturbinenIndicators einfärbt bzw. die Farbe zwischen grün & rot wechselt
+
 public class ChangeMaterial : MonoBehaviour
 
 {
-    public Toggle DeleteToggle;
+    public Toggle DeleteToggle; // Schafft Verbindung zum Toggle 
 
-    [SerializeField] private Material myMaterial;
+    public Material myMaterial; // Schafft die Verbindung zum Material 
 
     private void OnTriggerEnter(Collider other)
     {
