@@ -17,7 +17,7 @@ public class PlaneHiding : MonoBehaviour
     private void Awake()
     {
         planeManager = GetComponent<ARPlaneManager>();
-        toggleButtonText.text = "Disable";
+        toggleButtonText.text = "Erkannte Flächen ausblenden";
     }
 
     public void TogglePlaneDetection()
@@ -27,13 +27,13 @@ public class PlaneHiding : MonoBehaviour
 
         if (planeManager.enabled)
         {
-            toggleButtonMessage = "Disable";
+            toggleButtonMessage = "Erkannte Flächen ausblenden";
             SetAllPlanesActive(true);
         }
 
         else
         {
-            toggleButtonMessage = "Enable";
+            toggleButtonMessage = "Erkannte Flächen einblenden";
             SetAllPlanesActive(false);
         }
 
