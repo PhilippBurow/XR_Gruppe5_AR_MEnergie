@@ -19,6 +19,7 @@ public class ChangeScene : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);   // adding index one on active scene
         }
+        
         else if (FourScenesUp.isOn)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);   // adding index four on active scene
@@ -26,21 +27,24 @@ public class ChangeScene : MonoBehaviour
     }
     
     public void Back()
+
+    // When changing scene indices (buildIndex), the script "DeviceBackButton" must also be modified!!!
     {
         if (SceneManager.GetActiveScene().name == "DisasterScene")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);   // if you are in DisasterScene, scene index goes four steps back
         }
+
         if (SceneManager.GetActiveScene().name == "StartSceneEE" || SceneManager.GetActiveScene().name == "InfoScene" 
             || SceneManager.GetActiveScene().name == "SmogScene" || Help.isOn)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);   // if you are in one scene mentioned above or Help Button in ARScene is pressed
         }                                                                           // scene index goes one step back
+        
         if (Home.isOn)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);   // if Home Button in AR Scene is pressed, scene index goes two steps back
-        }
-        
+        }    
     }
     
     public void Quit()

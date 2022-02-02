@@ -1,15 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-// Skript zum rotieren der Windturbinen-Rotoren
+// Script to animate rotor blade rotation 
 
 public class RotateWindTurbine : MonoBehaviour
 {
     // Update is called once per frame
     void Update()
     {
-        // Kopf der Windturbine dreht sich um die y-Achse mit dem Wert 190
+        // Hub of the wind turbine rotates around the y-axis with the value 190
         transform.Rotate(new Vector3(0f, 190f, 0f) * Time.deltaTime);
     }
 }

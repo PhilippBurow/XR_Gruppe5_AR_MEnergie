@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ChangeMaterial : MonoBehaviour
 {
-    public Material myMaterial;                     // Connection to base material "M_Distance"
+    public Material myMaterial;                     // connection to base material "M_Distance"
 
     private void OnTriggerEnter(Collider other)     // function to check if two game objects collide
     {

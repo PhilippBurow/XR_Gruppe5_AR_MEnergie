@@ -5,10 +5,9 @@ using UnityEngine.UI;
 
 public class ScaleSlider : MonoBehaviour
 {
-    private Slider scaleSlider;                                                 // connection to slider
+    private Slider scaleSlider;                                                 
     void Start()
     {
-        // Slider "ScaleSlider" in Hierarchy finden
         scaleSlider = GameObject.Find("ScaleSlider").GetComponent<Slider>();    // searching for slider "ScaleSlider" in hierarchy 
         scaleSlider.onValueChanged.AddListener(ScaleSliderUpdate);              // when slider value changes go to function ScaleSliderUpdate with current                                                                           
     }                                                                           // game object size

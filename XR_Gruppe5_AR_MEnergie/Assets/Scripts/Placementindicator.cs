@@ -5,73 +5,71 @@ using UnityEngine.XR.ARSubsystems;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-// Skript 
+// Script for
+// - prevent spawning wind turbines if they are too close to each other
+// - prevents touches on UI elements from being detected as touch input
+// - placementIndicator in center of screen & on detected planes
+// - reset variables when out of delete mode
+
 public class Placementindicator : MonoBehaviour
 {
-    private ARRaycastManager rayManager;
-    private GameObject visual;
-    public GameObject ObjectToPlace;
-    private bool Distance = true;
-    public Toggle DeleteToggle;
-    public Camera ARCamera;
+    private ARRaycastManager rayManager;                                        
+    private GameObject visual;                                                  
+    public GameObject ObjectToPlace;                                            
+    private bool Distance = true;                                               
+    public Toggle DeleteToggle;                                                  
+    public Camera ARCamera;                                                     // connection to AR Camera
+    private List<RaycastResult> raycastResults = new List<RaycastResult>();      
+    public Material myMaterial;                                                 // connection to base material "M_Distance"
 
-    private List<RaycastResult> raycastResults = new List<RaycastResult>();
-    [SerializeField] private Material myMaterial;
+    // enable/disable spawning of wind turbine's depending on distance between spawned Windturbine and WindturbinePlacementIndicator
 
-    // Wenn im Collider vom Prefab WindTurbine (Tag "Player") kann nicht gespawnt werden
-    // -> Kreis ist Rot
-
-    private void OnTriggerEnter(Collider other)
-     {   
-        if (other.CompareTag("Player"))
+    private void OnTriggerEnter(Collider other)      // function to check if two game objects collide
+    {   
+        if (other.CompareTag("Player"))              // compare tags of colliding game objects. "Player" is tagged to windturbine prefab and Placementindicator
         {
-            Distance = false;
-                Debug.Log("Distance = False");
+            Distance = false;                        // change variable "Distance" to false 
+                Debug.Log("Distance = False");              
         }
      }
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player"))              // compare tags of game objects. "Player" is tagged to windturbine prefab and Placementindicator
         {
-            Distance = false;
-                Debug.Log("Distance = False");
+            Distance = false;                        // change variable "Distance" to false
+            Debug.Log("Distance = False");
         }
     }
 
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player"))              // compare tags of game objects. "Player" is tagged to windturbine prefab and Placementindicator
         {
-            Distance = true;
-                Debug.Log("Distance = True");
+            Distance = true;                         // change variable "Distance" to false
+            Debug.Log("Distance = True");
         }
     }
 
-    // Verhindert, dass berührungen auf Buttons/Slider als Touch-Eingabe erkannt werden
-    private bool isPointerOverUI(Vector2 fingerPosition)
+    // Prevents touches on UI elements from being detected as touch input
+    private bool isPointerOverUI(Vector2 fingerPosition)                                
     {
         PointerEventData eventDataPosition = new PointerEventData(EventSystem.current);
         eventDataPosition.position = fingerPosition;
         EventSystem.current.RaycastAll(eventDataPosition, raycastResults);
-        return raycastResults.Count > 0; //if greater than zero, that means we hit a UI Element
+        return raycastResults.Count > 0;                                                    //if greater than zero, that means we hit a UI element
     }
 
     void Start()
     {
-        // Sucht den ARRaycastManager im Projekt
-        rayManager = FindObjectOfType<ARRaycastManager>();
-        // Sucht das Child vom GameObject auf dem das Skript liegt
-        visual = transform.GetChild(0).gameObject; 
-       
-        // Placementindicator bei App-Start erstmal ausblenden (bis Plane erkannt wird)
-        visual.SetActive(false);
+        rayManager = FindObjectOfType<ARRaycastManager>();                                  // search the ARRaycastManager in the hirarchy
+        visual = transform.GetChild(0).gameObject;                                          // searches the child of the GameObject on which the script is located
+        visual.SetActive(false);                                                            // hide placement indicator at app start (until plane is detected)
     }
 
      void Update()
     {
-
         // "Strahl" dauerhaft (Update) aus der Bildschirmmitte "schießen". Wenn dieser ein
         // "Trackable", in unserem Fall eine Plane trifft wird diese Position/Rotation
         // gespeichert.
@@ -85,45 +83,41 @@ public class Placementindicator : MonoBehaviour
             transform.position = hits[0].pose.position;
             transform.rotation = hits[0].pose.rotation;
 
-            // Macht den PlacementIndicator sichtbar, sobald eine Plane getroffen wird
-            if (!visual.activeInHierarchy)
+            if (!visual.activeInHierarchy)                                                  // makes the PlacementIndicator visible when a plane is hit
                 visual.SetActive(true);
         }
 
-        //Erweiterung Maus/Finger Position
-
-        if ((((Input.touchCount > 0) && (Input.GetTouch(0).phase == TouchPhase.Began) && (Distance == true) && (!DeleteToggle.isOn == true))))
+        if ((((Input.touchCount > 0) && (Input.GetTouch(0).phase == TouchPhase.Began)       // 
+            && (Distance == true) && (!DeleteToggle.isOn == true))))
         {
-            Debug.Log("Mouse down");
+            Debug.Log("Mouse down");                                                        // control over DebugLog
 
-            //Position wo Bildschirm gedrückt wird eritteln 
-            Ray ray = ARCamera.ScreenPointToRay(Input.mousePosition);
-            //Debug Funktion ist zur Fehlerermittlung hilfreich. Es handelt sich um eine Ausgabe in der Konsole
+            Ray ray = ARCamera.ScreenPointToRay(Input.mousePosition);                       // determine position where screen is pressed
             Debug.Log(ray);
 
             if (isPointerOverUI(Input.mousePosition))
             {
                 Debug.Log("Do nothing!");
             }
-            // GameObject an der Stelle spawnen, an der sich auch der Placementindicator befindet
+
             else
             {
-                GameObject prefab_gameobject = Instantiate(ObjectToPlace, transform.position, transform.rotation);
+                GameObject prefab_gameobject = Instantiate(ObjectToPlace,                   // Spawn the GameObject at the same place where the placement indicator is located
+                    transform.position, transform.rotation);
             }
         }
 
-        if (DeleteToggle.isOn == true)
+        // reset variables when out of delete mode
+
+        if (DeleteToggle.isOn == true)  
         {
-            visual.SetActive(false);
+            visual.SetActive(false);                                                        // Hides PlacementIndictor when in delete-mode
 
+            if ((DeleteToggle.isOn == false) && (!visual.activeInHierarchy))                
         
-        if ((DeleteToggle.isOn == false) && (!visual.activeInHierarchy))
-        
-            visual.SetActive(false);
-            myMaterial.color = Color.green; 
-            Distance = true;
-        }
-        
+            visual.SetActive(false);                                                        // show PlacementIndicator
+            myMaterial.color = Color.green;                                                 // sets the material of the wind turbine's base to green
+            Distance = true;                                                                // sets the variable distance to true
+        }   
     }
-
 }
