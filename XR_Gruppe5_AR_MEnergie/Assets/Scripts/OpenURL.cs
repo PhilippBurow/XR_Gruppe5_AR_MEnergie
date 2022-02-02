@@ -1,16 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.EventSystems;
 
-// Skript zum Aufrfen der Quellen in der Info-Sceen
+// Script to open URL
 
 public class OpenURL : MonoBehaviour
 {
-    public Button Button1; 
-    public Button Button2;
-
     public void Quelle1()
     {
         Application.OpenURL("http://windmonitor.iee.fraunhofer.de/windmonitor_de/3_Onshore/2_technik/4_anlagengroesse/");

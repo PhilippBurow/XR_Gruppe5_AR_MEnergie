@@ -1,37 +1,30 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-// Skript um das Material, welches die Farbe des Fußes des WindturbinenIndicators einfärbt bzw. die Farbe zwischen grün & rot wechselt
+// Script to change color of the wind turbine's base depending on distance 
 
 public class ChangeMaterial : MonoBehaviour
-
 {
-    public Toggle DeleteToggle; // Schafft Verbindung zum Toggle 
+    public Material myMaterial;                     // Connection to base material "M_Distance"
 
-    public Material myMaterial; // Schafft die Verbindung zum Material 
-
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)     // function to check if two game objects collide
     {
-        if(other.CompareTag("Player")) // Auf dem GameObject welches gemeint ist muss der Tag "Player liegen" Der Collider muss "Is Triggert" sein.
+        if(other.CompareTag("Player"))              // compare tags of colliding game objects. "Player" is tagged to windturbine prefab and Placementindicator
         {
-            myMaterial.color = Color.red; 
+            myMaterial.color = Color.red;           // change base material to red
         }
     }
-
     private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("Player")) 
+        if (other.CompareTag("Player"))             // compare tags of game objects. "Player" is tagged to windturbine prefab and Placementindicator
         {
-            myMaterial.color = Color.red;
+            myMaterial.color = Color.red;           // base material remains red          
         }
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player"))             // compare tags of departing game objects. "Player" is tagged to windturbine prefab and Placementindicator
         {
-            myMaterial.color = Color.green;
+            myMaterial.color = Color.green;         // change base material to green
         }
     }
 }
