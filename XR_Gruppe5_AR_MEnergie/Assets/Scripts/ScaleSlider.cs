@@ -8,12 +8,16 @@ public class ScaleSlider : MonoBehaviour
     private Slider scaleSlider;                                                 
     void Start()
     {
-        scaleSlider = GameObject.Find("ScaleSlider").GetComponent<Slider>();    // searching for slider "ScaleSlider" in hierarchy 
-        scaleSlider.onValueChanged.AddListener(ScaleSliderUpdate);              // when slider value changes go to function ScaleSliderUpdate with current                                                                           
-    }                                                                           // game object size
+        // searching for slider "ScaleSlider" in hierarchy
+        scaleSlider = GameObject.Find("ScaleSlider").GetComponent<Slider>();
+        // when slider value changes go to function ScaleSliderUpdate with 
+        // current game object size
+        scaleSlider.onValueChanged.AddListener(ScaleSliderUpdate);                                                                                         
+    }                                                                           
 
     void ScaleSliderUpdate(float value)
     {
-        transform.localScale = new Vector3(value, value, value);                // scale all dimensions with the same size depending on scale movement     
+        // scale all dimensions with the same size depending on scale movement
+        transform.localScale = new Vector3(value, value, value);                     
     }
 }

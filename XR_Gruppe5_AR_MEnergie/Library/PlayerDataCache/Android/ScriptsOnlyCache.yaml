@@ -409,7 +409,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4990}
     - Class: 114
-      Script: {instanceID: 18236}
+      Script: {instanceID: 16980}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -648,7 +648,7 @@ ScriptsOnlyBuild:
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
-      Hash: c230bbf1b682f295b2ec3d062784b006
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OpenURL
@@ -1206,7 +1206,7 @@ ScriptsOnlyBuild:
     className: ARPointCloud
   - hash:
       serializedVersion: 2
-      Hash: abcdd7b9021bb9ad47e992e38e82a310
+      Hash: 6b990d978f0bb8f602c53242cc9019cf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChangeMaterial
@@ -1248,4 +1248,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/InfoScene.unity
   - Assets/Scenes/DisasterScene.unity
   - Assets/Scenes/SmogScene.unity
-  playerPath: C:/Users/danie/Desktop/EEtest2.apk
+  playerPath: C:/Users/User/Unity3d/Projekte/XR_Gruppe5_AR_MEnergie_22.apk

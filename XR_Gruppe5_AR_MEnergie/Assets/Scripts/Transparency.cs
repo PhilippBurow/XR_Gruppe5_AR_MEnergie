@@ -11,13 +11,16 @@ public class Transparency : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SmogSlider = GameObject.Find("SmogSlider").GetComponent<Slider>();  // searching for slider "ScaleSlider" in hierarchy
-        SmogSlider.onValueChanged.AddListener(ScaleSliderUpdate);           // when slider value changes go to function ScaleSliderUpdate with current                                                                           
+        // searching for slider "ScaleSlider" in hierarchy
+        SmogSlider = GameObject.Find("SmogSlider").GetComponent<Slider>();  
+        // when slider value changes go to function ScaleSliderUpdate with current
+        SmogSlider.onValueChanged.AddListener(ScaleSliderUpdate);                                                                                      
     }
 
     void ScaleSliderUpdate(float value)
     {
-        img.color = new Color(1.0f, 1.0f, 1.0f, value);                     // change the transparency of the Image Color depending on scale movement
+        // change the transparency of the Image Color depending on scale movement
+        img.color = new Color(1.0f, 1.0f, 1.0f, value);                     
     }
 }
 

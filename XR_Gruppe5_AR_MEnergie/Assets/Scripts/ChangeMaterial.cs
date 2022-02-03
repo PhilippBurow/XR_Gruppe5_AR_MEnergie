@@ -1,30 +1,42 @@
 using UnityEngine;
 
-// Script to change color of the wind turbine's base depending on distance 
+// Script to change color of the wind turbine's base
+// depending on distance 
 
 public class ChangeMaterial : MonoBehaviour
 {
-    public Material myMaterial;                     // connection to base material "M_Distance"
+    // connection to base material "M_Distance"
+    public Material myMaterial;                     
 
-    private void OnTriggerEnter(Collider other)     // function to check if two game objects collide
+    // function to check if two game objects collide
+    private void OnTriggerEnter(Collider other)     
     {
-        if(other.CompareTag("Player"))              // compare tags of colliding game objects. "Player" is tagged to windturbine prefab and Placementindicator
+        // compare tags of colliding game objects. "Player" is tagged to
+        // windturbine prefab and Placementindicator
+        if (other.CompareTag("Player"))              
         {
-            myMaterial.color = Color.red;           // change base material to red
+            // change base material to red
+            myMaterial.color = Color.red;           
         }
     }
     private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("Player"))             // compare tags of game objects. "Player" is tagged to windturbine prefab and Placementindicator
+        // compare tags of game objects. "Player" is tagged to windturbine
+        // prefab and Placementindicator
+        if (other.CompareTag("Player"))             
         {
-            myMaterial.color = Color.red;           // base material remains red          
+            // base material remains red
+            myMaterial.color = Color.red;                     
         }
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))             // compare tags of departing game objects. "Player" is tagged to windturbine prefab and Placementindicator
+        // compare tags of departing game objects. "Player" is tagged to
+        // windturbine prefab and Placementindicator
+        if (other.CompareTag("Player"))             
         {
-            myMaterial.color = Color.green;         // change base material to green
+            // change base material to green
+            myMaterial.color = Color.green;         
         }
     }
 }

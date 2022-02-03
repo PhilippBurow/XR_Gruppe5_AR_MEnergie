@@ -2,41 +2,56 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 
-// Script to show/hide the detected planes on which the wind turbines can be spawned
+// script to show/hide the detected planes on which the wind turbines can be spawned
 
-[RequireComponent(typeof(ARPlaneManager))]      // The RequireComponent attribute automatically adds required components as dependencies
+// the RequireComponent attribute automatically adds required components as dependencies
+[RequireComponent(typeof(ARPlaneManager))]      
+
 public class PlaneHiding : MonoBehaviour
 {
     private ARPlaneManager planeManager;
-    public Text toggleButtonText;               // text field which should be changed 
+    public Text toggleButtonText;             // text field which should be changed 
 
     private void Awake() 
     {
-        planeManager = GetComponent<ARPlaneManager>();          // reference between Variable "planeManager" and AR-Planes
-        toggleButtonText.text = "Erkannte Ebenen ausblenden";   // Set the text field of the toggle to "Erkannte Ebenen ausblenden" at awake
+        // reference between Variable "planeManager" and AR-Planes
+        planeManager = GetComponent<ARPlaneManager>();
+        // set the text field of the toggle to "Erkannte Ebenen ausblenden" at awake
+        toggleButtonText.text = "Erkannte Ebenen ausblenden";   
     }
 
-    public void TogglePlaneDetection()                          // active when the button is pressed
+    // active when the button is pressed
+    public void TogglePlaneDetection()                          
     {
-        planeManager.enabled = !planeManager.enabled;           // disable planeManager at awake 
-        string toggleButtonMessage = "";                        // new string for the changing text in the text field 
+        // disable planeManager at awake
+        planeManager.enabled = !planeManager.enabled;
+        // new string for the changing text in the text field
+        string toggleButtonMessage = "";
 
-        if (planeManager.enabled)                               // If planes are visible
+        // if planes are visible
+        if (planeManager.enabled)                               
         {
-            toggleButtonMessage = "Erkannte Ebenen ausblenden"; // => Button text = disable
-            SetAllPlanesActive(true);                           // => show all detected plaes
+            // => button text = disable
+            toggleButtonMessage = "Erkannte Ebenen ausblenden";
+            // => show all detected planes
+            SetAllPlanesActive(true);                           
         }
             
-        else                                                    // If planes are not visible 
+        else                                                     
         {
-            toggleButtonMessage = "Erkannte Ebenen einblenden"; // => Button text = disable
-            SetAllPlanesActive(false);                          // => hide all detected planes
+            // if planes are not visible
+            // => button text = disable
+            toggleButtonMessage = "Erkannte Ebenen einblenden";
+            // => hide all detected planes
+            SetAllPlanesActive(false);                          
         }
 
-        toggleButtonText.text = toggleButtonMessage;            // toggleButtonMessage to text field of the toggle
+        // toggleButtonMessage to text field of the toggle
+        toggleButtonText.text = toggleButtonMessage;            
     }
 
-    private void SetAllPlanesActive(bool value)                 // Sets all trackables (in this case planes) true or false
+    // sets all trackables (in this case planes) true or false
+    private void SetAllPlanesActive(bool value)                 
     {                                                           
         foreach (var plane in planeManager.trackables)
         {

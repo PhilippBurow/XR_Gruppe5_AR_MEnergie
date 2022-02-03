@@ -1,6 +1,6 @@
 using UnityEngine;
 
-// Script to open URL
+// script to open URL
 
 public class OpenURL : MonoBehaviour
 {
